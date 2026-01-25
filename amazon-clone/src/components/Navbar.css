@@ -173,3 +173,13 @@ h1 {
         width: 50%;
     }
 }
+
+@media (max-width: 566px) {
+    .nav__account {
+        display: none;
+    }
+    .nav__search {
+        width: 60%;
+        margin: 0 8px;
+    }
+}
