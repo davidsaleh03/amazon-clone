@@ -14,6 +14,7 @@
     align-items: center;
     height: 60px;
     position: relative;
+    padding: 0 14px;
 }
 
 .navbar__contents--bottom {
@@ -108,4 +109,46 @@ h1 {
     justify-content: center;
     align-items: center;
     color: #242424;
+}
+
+.nav__language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: not-allowed;
+}
+
+.nav__language h1:first-child {
+    font-size: 22px;
+    margin-right: 4px;
+}
+
+.nav__language h1 {
+    font-size: 14px;
+}
+
+.nav__account h1:first-child {
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+}
+
+.nav__account h1:nth-child(2) {
+    font-weight: 800;
+}
+
+.nav__cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-icon {
+    font-size: 24px;
+    position: relative;
+}
+
+.items-cart {
+    font-size: 22px;
+    color: #FF9800;
 }

@@ -14,9 +14,7 @@ const Navbar = () => {
   return (
     <div className="Navbar">
         <div className="navbar__contents--top">
-            <figure className="logo__figure">
-                <img src={logo} alt="" className="logo__img" />
-            </figure>
+            <img src={logo} alt="" className="logo__figure" />
             <div className="nav__location">
                 <FontAwesomeIcon icon={faLocationDot} />
                 <div className="nav__location--container">
@@ -37,18 +35,20 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="nav__language">
+                <h1>🇺🇸</h1>
                 <h1>ENG</h1>
                 <FontAwesomeIcon icon={faCaretDown} />
             </div>
             <div className="nav__account">
                 <h1>Hello, sign in</h1>
+                <h1>Accounts & Lists</h1>
             </div>
             <div className="nav__returns">
                 <h1>Returns</h1>
                 <h1>& Orders</h1>
             </div>
             <div className="nav__cart">
-                <FontAwesomeIcon icon={faCartShopping} />
+                <FontAwesomeIcon className='cart-icon' icon={faCartShopping} />
                 <h1 className='items-cart'>0</h1>
             </div>
         </div>
