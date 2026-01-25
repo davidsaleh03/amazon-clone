@@ -152,3 +152,24 @@ h1 {
     font-size: 22px;
     color: #FF9800;
 }
+
+@media (max-width: 973px) {
+    .nav__returns {
+        display: none;
+    }
+}
+
+@media (max-width: 860px) {
+    .nav__language {
+        display: none;
+    }
+}
+
+@media (max-width: 738px) {
+    .nav__location {
+        display: none;
+    }
+    .nav__search {
+        width: 50%;
+    }
+}
