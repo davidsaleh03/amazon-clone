@@ -27,7 +27,7 @@ const Navbar = () => {
             <div className="nav__search">
                 <div className="search__left">
                     <h1>All</h1>
-                    <FontAwesomeIcon icon={faCaretDown} />
+                    <FontAwesomeIcon className='search-icon' icon={faCaretDown} />
                 </div>
                 <div className="search__middle">
                     <h1>Search Amazon</h1>
