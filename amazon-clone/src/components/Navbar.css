@@ -1,0 +1,35 @@
+.Navbar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar__contents--top {
+    background-color: #131921;
+    display: flex;
+    height: 60px;
+}
+
+.navbar__contents--bottom {
+    background-color: #232F3E;
+    display: flex;
+    height: 39px;
+}
+
+.logo__figure {
+    width: 40px;
+    height: 20px;
+    padding: 0 10px;
+}
+
+.logo__img {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 12px;
+}
