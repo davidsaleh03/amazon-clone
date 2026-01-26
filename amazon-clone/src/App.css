@@ -1,0 +1,7 @@
+.cursor-no {
+  cursor: not-allowed;
+}
+
+.cursor-yes {
+  cursor: pointer;
+}

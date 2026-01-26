@@ -153,6 +153,30 @@ h1 {
     color: #FF9800;
 }
 
+.navbar__contents--bottom {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.nav__all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: not-allowed;
+    margin-left: 12px;
+}
+
+.nav__all h1,
+.nav__btm h1 {
+    font-size: 14px;
+}
+
+.nav__all,
+.nav__btm {
+    margin-right: 18px;
+}
+
 @media (max-width: 973px) {
     .nav__returns {
         display: none;

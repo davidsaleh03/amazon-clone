@@ -57,31 +57,31 @@ const Navbar = () => {
                 <FontAwesomeIcon icon={faBars} />
                 <h1>All</h1>
             </div>
-            <div className="nav__btm">
+            <div className="nav__btm cursor-yes">
                 <h1>Amazon Basics</h1>
             </div>
-            <div className="nav__btm">
+            <div className="nav__btm cursor-yes">
                 <h1>Home Decor</h1>
             </div>
-            <div className="nav__btm">
+            <div className="nav__btm cursor-yes">
                 <h1>Kitchen</h1>
             </div>
-            <div className="nav__btm">
+            <div className="nav__btm cursor-yes">
                 <h1>Electronics</h1>
             </div>
-            <div className="nav__btm">
+            <div className="nav__btm cursor-yes">
                 <h1>Books</h1>
             </div>
-            <div className="nav__btm">
+            <div className="nav__btm cursor-no">
                 <h1>Registry</h1>
             </div>
-            <div className="nav__btm">
+            <div className="nav__btm cursor-no">
                 <h1>Gift Cards</h1>
             </div>
-            <div className="nav__btm">
+            <div className="nav__btm cursor-no">
                 <h1>New Releases</h1>
             </div>
-            <div className="nav__btm">
+            <div className="nav__btm cursor-no">
                 <h1>Prime</h1>
             </div>
         </div>
