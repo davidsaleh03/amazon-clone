@@ -38,6 +38,39 @@ import keyboard1 from './keyboard-1.jpg'
 import keyboard2 from './keyboard-2.jpg'
 import keyboard3 from './keyboard-3.jpg'
 import keyboard4 from './keyboard-4.jpg'
+// home decor
+import lamp1 from './lamp-1.jpg'
+import lamp2 from './lamp-2.jpg'
+import lamp3 from './lamp-3.jpg'
+import lamp4 from './lamp-4.jpg'
+import mirror1 from './mirror-1.jpg'
+import mirror2 from './mirror-2.jpg'
+import mirror3 from './mirror-3.jpg'
+import mirror4 from './mirror-4.jpg'
+import shelf1 from './shelf-1.jpg'
+import shelf2 from './shelf-2.jpg'
+import shelf3 from './shelf-3.jpg'
+import shelf4 from './shelf-4.jpg'
+import pillow1 from './pillow-1.jpg'
+import pillow2 from './pillow-2.jpg'
+import pillow3 from './pillow-3.jpg'
+import pillow4 from './pillow-4.jpg'
+import plant1 from './plant-1.jpg'
+import plant2 from './plant-2.jpg'
+import plant3 from './plant-3.jpg'
+import plant4 from './plant-4.jpg'
+import lights1 from './lights-1.jpg'
+import lights2 from './lights-2.jpg'
+import lights3 from './lights-3.jpg'
+import lights4 from './lights-4.jpg'
+import rug1 from './rug-1.jpg'
+import rug2 from './rug-2.jpg'
+import rug3 from './rug-3.jpg'
+import rug4 from './rug-4.jpg'
+import candles1 from './candles-1.jpg'
+import candles2 from './candles-2.jpg'
+import candles3 from './candles-3.jpg'
+import candles4 from './candles-4.jpg'
 
 
 const productInventory = {
@@ -396,6 +429,197 @@ const productInventory = {
             'High-definition (1000 dpi) optical tracking enables responsive cursor control for precise tracking and easy text selection'
         }
       ]
-    }
+    },
+    {
+  id: 'homedecor',
+  name: 'Modern Ceramic Table Lamp with Fabric Shade',
+  price: '39.99',
+  rating: 4.4,
+  photos: {
+    img1: lamp1,
+    img2: lamp2,
+    img3: lamp3,
+    img4: lamp4,
+  },
+  about: [
+    { description: 'SIZE: 14" L x 14" W x 20" H, ideal for small to medium bedside tables, consoles, nightstands, or entryway surfaces.' },
+    { description: 'STYLE: Timeless ceramic pottery table lamp, perfect for traditional to farmhouse interiors' },
+    { description: 'FEATURES: Simple 1-way on/off switch conveniently located on a 60" clear cord. UL Listed' },
+    { description: 'BULB NOT INCLUDED: Uses 1 standard E26 base bulb, 60W max (incandescent or LED equivalent).' },
+    { description: 'QUICK ASSEMBLY: Minimal setup required, attach and secure the shade using the plastic ring (unscrew from the bulb holder). Swing bracket is pre-attached to the shade.' },
+    { description: 'EASY CARE: Dust or wipe with a soft dry cloth, do not use any abrasive cleaners' },
+  ]
+},
+{
+  id: 'homedecor2',
+  name: 'Decorative Wall Mirror with Gold Metal Frame',
+  price: '54.50',
+  rating: 4.6,
+  photos: {
+    img1: mirror1,
+    img2: mirror2,
+    img3: mirror3,
+    img4: mirror4,
+  },
+  about: [
+    { description: 'Stylish round mirror with durable gold-finished metal frame' },
+    { description: 'Enhances light and creates the illusion of space' },
+    { description: 'Ideal for entryways, bathrooms, or living rooms' },
+    { description: 'Easy to mount with included hanging hardware' },
+    { description: 'Scratch-resistant glass surface' },
+  ]
+},
+{
+  id: 'homedecor3',
+  name: 'Set of 3 Floating Wall Shelves – Rustic Wood',
+  price: '32.99',
+  rating: 4.3,
+  photos: {
+    img1: shelf1,
+    img2: shelf2,
+    img3: shelf3,
+    img4: shelf4,
+  },
+  about: [
+    { description: 'Rustic wood shelves add warmth and charm to any room' },
+    { description: 'Perfect for displaying plants, books, and décor items' },
+    { description: 'Strong metal brackets for secure wall mounting' },
+    { description: 'Space-saving vertical storage solution' },
+    { description: 'Easy installation with included hardware' },
+  ]
+},
+{
+  id: 'homedecor4',
+  name: 'Luxury Decorative Throw Pillow Covers (Set of 2)',
+  price: '18.75',
+  rating: 4.5,
+  photos: {
+    img1: pillow1,
+    img2: pillow2,
+    img3: pillow3,
+    img4: pillow4,
+  },
+  about: [
+    { description: 'Soft velvet fabric with a premium feel' },
+    { description: 'Hidden zipper design for a clean look' },
+    { description: 'Fits standard 18x18 inch throw pillows' },
+    { description: 'Machine washable for easy care' },
+    { description: 'Great accent for sofas, beds, and chairs' },
+  ]
+},
+{
+  id: 'homedecor5',
+  name: 'Artificial Indoor Potted Plant – Faux Fiddle Leaf Fig',
+  price: '27.90',
+  rating: 4.2,
+  photos: {
+    img1: plant1,
+    img2: plant2,
+    img3: plant3,
+    img4: plant4,
+  },
+  about: [
+    { description: 'Realistic faux leaves with natural texture' },
+    { description: 'No watering or maintenance required' },
+    { description: 'Perfect for home, office, or apartment décor' },
+    { description: 'Comes pre-potted in a sturdy container' },
+    { description: 'Adds greenery without the upkeep' },
+  ]
+},
+{
+  id: 'homedecor6',
+  name: 'Decorative LED String Lights – Warm White (20 ft)',
+  price: '14.99',
+  rating: 4.6,
+  photos: {
+    img1: lights1,
+    img2: lights2,
+    img3: lights3,
+    img4: lights4,
+  },
+  about: [
+    { description: 'Soft warm white lighting creates a cozy atmosphere' },
+    { description: 'Flexible wire for easy shaping and decorating' },
+    { description: 'Perfect for bedrooms, patios, and wall décor' },
+    { description: 'Energy-efficient LED bulbs' },
+    { description: 'USB powered for convenient use' },
+  ]
+},
+{
+  id: 'homedecor7',
+  name: 'Decorative Area Rug – Boho Pattern (5x7 ft)',
+  price: '64.99',
+  rating: 4.4,
+  photos: {
+    img1: rug1,
+    img2: rug2,
+    img3: rug3,
+    img4: rug4,
+  },
+  about: [
+    { description: 'Soft woven fabric with vibrant boho-inspired design' },
+    { description: 'Adds warmth and texture to living spaces' },
+    { description: 'Low-pile design for easy cleaning' },
+    { description: 'Non-slip backing for added safety' },
+    { description: 'Ideal for living rooms and bedrooms' },
+  ]
+},
+{
+  id: 'homedecor8',
+  name: 'Decorative Scented Candles – Set of 3',
+  price: '22.50',
+  rating: 4.7,
+  photos: {
+    img1: candles1,
+    img2: candles2,
+    img3: candles3,
+    img4: candles4,
+  },
+  about: [
+    { description: 'Long-lasting soy wax candles with calming scents' },
+    { description: 'Includes lavender, vanilla, and sandalwood' },
+    { description: 'Clean, even burn with cotton wicks' },
+    { description: 'Stylish glass jars for home décor' },
+    { description: 'Perfect for relaxation and gifting' },
+  ]
+},
+{
+  id: 'homedecor9',
+  name: 'Wooden Wall Clock – Silent Non-Ticking',
+  price: '29.99',
+  rating: 4.3,
+  photos: {
+    img1: clock1,
+    img2: clock2,
+    img3: clock3,
+    img4: clock4,
+  },
+  about: [
+    { description: 'Silent sweep movement for noise-free operation' },
+    { description: 'Minimalist wooden design suits modern interiors' },
+    { description: 'Large numbers for easy readability' },
+    { description: 'Battery operated (battery not included)' },
+    { description: 'Ideal for living rooms, kitchens, or offices' },
+  ]
+},
+{
+  id: 'homedecor10',
+  name: 'Decorative Storage Basket – Woven Cotton Rope',
+  price: '24.95',
+  rating: 4.5,
+  photos: {
+    img1: basket1,
+    img2: basket2,
+    img3: basket3,
+    img4: basket4,
+  },
+  about: [
+    { description: 'Handwoven cotton rope with sturdy structure' },
+    { description: 'Perfect for blankets, toys, or magazines' },
+    { description: 'Soft yet durable material safe for floors' },
+    { description: 'Neutral color fits most décor styles' },
+    { description: 'Foldable design for easy storage' },
+  ]
+}
   ]
 };
