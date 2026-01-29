@@ -1,0 +1,148 @@
+.home__to-top {
+    background-color: #344555;
+    cursor: pointer;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__to-top h1 {
+    text-align: center;
+    font-size: 14px;
+}
+
+.home__to-top:hover {
+    background-color: #3A4A5C;
+}
+
+.footer__section {
+    background-color: #232F3E;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 24px 12px 0px 12px;
+
+}
+
+.footer__bottom {
+    background-color: #131A22;
+    height: 56px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul,
+li {
+list-style-type: none
+}
+
+
+.bottom__top1 {
+    display: flex;
+    margin-bottom: -18px;
+}
+
+.list__title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.list__item {
+    cursor: not-allowed;
+}
+
+
+.list__item:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.footer__list:not(:last-child) {
+    margin-right: 48px;
+}
+
+.bottom__bottom1 {
+    font-size: 12px;
+}
+
+.bottom__top1--title {
+    font-size: 12px;
+    cursor: not-allowed;
+}
+
+.bottom__top1--title:not(:last-child) {
+    margin-right: 8px;
+}
+
+.bottom__bottom1 {
+    margin-top: 8px;
+}
+
+@media (max-width: 776px) {
+    .list__item {
+        font-size: 12px;
+    }
+
+    .list__title {
+        font-size: 14px;
+    }
+    .footer__list:not(:last-child) {
+    margin-right: 24px;
+    }
+    .footer__section {
+        height: 250px !important;
+    }
+}
+
+@media (max-width: 684px) {
+    .footer__section {
+        height: 300px !important;
+    }
+}
+@media (max-width: 606px) {
+    .footer__section {
+        height: 335px !important;
+    }
+}
+
+
+@media (max-width: 546px) {
+    .footer__list:not(:last-child) {
+    margin-right: 18px;
+}
+}
+
+@media (max-width: 528px) {
+    .footer__list:not(:last-child) {
+    margin-right: 8px;
+}
+}
+
+@media (max-width: 571px) {
+    .bottom__top1--title {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 552px) {
+    .footer__section {
+        height: 355px !important;
+    }
+}
+
+@media (max-width: 498px) {
+    .footer__section {
+        height: 375px !important;
+    }
+}
+
+@media (max-width: 915px) {
+    .footer__section {
+        height: 350px;
+    }
+}
