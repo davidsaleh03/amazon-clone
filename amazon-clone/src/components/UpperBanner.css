@@ -60,13 +60,18 @@
 
 .module {
     width: 306px;
-    height: 420px;
+    height: 400px;
     background-color: white;
     margin-right: 12px;
 }
 
 .module:first-child {
     margin-left: 12px;
+}
+
+.module__title {
+    color: #242424;
+    font-size: 24px;
 }
 
 @media (max-width: 1324px) {
@@ -102,6 +107,11 @@
 
     .module:first-child {
         margin-left: 25px;
+    }
+
+    .module:first-child,
+    .module:nth-child(2) {
+        margin-bottom: 10px;
     }
 
     .module:nth-child(3) {

@@ -8,6 +8,7 @@ import banner3 from "../assets/banner-3.jpg";
 import banner4 from "../assets/banner-4.jpg";
 import banner5 from "../assets/banner-5.jpg";
 import "./UpperBanner.css";
+import productInventory from '../assets/products.js'
 
 const slides = [banner1, banner2, banner3, banner4, banner5];
 
@@ -50,10 +51,42 @@ const UpperBanner = () => {
         />
       </div>
       <div className="topmodules">
-        <div className="module best__seller"></div>
-        <div className="module high__rated"></div>
-        <div className="module lowest__price"></div>
-        <div className="module module__last continue__shopping"></div>
+        <div className="module on__sale">
+            <h1 className="module__title">
+                Highly Rated in Amazon Basics
+            </h1>
+            <div className="module__content">
+
+            </div>
+            <h2 className="module__footer">See more</h2>
+        </div>
+        <div className="module high__rated">
+            <h1 className="module__title">
+                Highly Rated in Home Decor
+            </h1>
+            <div className="module__content">
+                
+            </div>
+            <h2 className="module__footer">See more</h2>
+        </div>
+        <div className="module lowest__price">
+            <h1 className="module__title">
+                Highly Rated in Kitchen
+            </h1>
+            <div className="module__content">
+                
+            </div>
+            <h2 className="module__footer">See more</h2>
+        </div>
+        <div className="module module__last continue__shopping">
+            <h1 className="module__title">
+                Highly Rated in Electronics
+            </h1>
+            <div className="module__content">
+                
+            </div>
+            <h2 className="module__footer">See more</h2>
+        </div>
       </div>
     </div>
   );

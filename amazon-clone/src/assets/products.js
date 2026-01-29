@@ -161,6 +161,16 @@ import powerBank1 from './powerBank-1.jpg'
 import powerBank2 from './powerBank-2.jpg'
 import powerBank3 from './powerBank-3.jpg'
 import powerBank4 from './powerBank-4.jpg'
+import book1 from './book-1.jpg'
+import book2 from './book-2.jpg'
+import book3 from './book-3.jpg'
+import book4 from './book-4.jpg'
+import book5 from './book-5.jpg'
+import book6 from './book-6.jpg'
+import book7 from './book-7.jpg'
+import book8 from './book-8.jpg'
+import book9 from './book-9.jpg'
+import book10 from './book-10.jpg'
 
 
 
@@ -1098,10 +1108,7 @@ const productInventory = {
   price: '15.99',
   rating: 4.6,
   photos: {
-    img1: book1a,
-    img2: book1b,
-    img3: book1c,
-    img4: book1d,
+    img1: book1
   },
   about: [
     { description: 'A novel about choices, regrets, and second chances.' },
@@ -1116,10 +1123,7 @@ const productInventory = {
   price: '18.50',
   rating: 4.8,
   photos: {
-    img1: book2a,
-    img2: book2b,
-    img3: book2c,
-    img4: book2d,
+    img1: book2
   },
   about: [
     { description: 'An easy & proven way to build good habits and break bad ones.' },
@@ -1134,10 +1138,7 @@ const productInventory = {
   price: '14.99',
   rating: 4.7,
   photos: {
-    img1: book3a,
-    img2: book3b,
-    img3: book3c,
-    img4: book3d,
+    img1: book3
   },
   about: [
     { description: 'A coming-of-age mystery set in the marshes of North Carolina.' },
@@ -1151,10 +1152,7 @@ const productInventory = {
   price: '17.99',
   rating: 4.7,
   photos: {
-    img1: book4a,
-    img2: book4b,
-    img3: book4c,
-    img4: book4d,
+    img1: book4
   },
   about: [
     { description: 'A memoir about family, self-invention, and education.' },
@@ -1168,10 +1166,7 @@ const productInventory = {
   price: '12.95',
   rating: 4.6,
   photos: {
-    img1: book5a,
-    img2: book5b,
-    img3: book5c,
-    img4: book5d,
+    img1: book5
   },
   about: [
     { description: 'A practical guide to personal freedom and self-growth.' },
@@ -1185,10 +1180,7 @@ const productInventory = {
   price: '16.50',
   rating: 4.8,
   photos: {
-    img1: book6a,
-    img2: book6b,
-    img3: book6c,
-    img4: book6d,
+    img1: book6
   },
   about: [
     { description: 'Epic science fiction classic.' },
@@ -1202,10 +1194,7 @@ const productInventory = {
   price: '13.99',
   rating: 4.7,
   photos: {
-    img1: book7a,
-    img2: book7b,
-    img3: book7c,
-    img4: book7d,
+    img1: book7
   },
   about: [
     { description: 'A fable about following your dreams and listening to your heart.' },
@@ -1219,10 +1208,7 @@ const productInventory = {
   price: '19.99',
   rating: 4.7,
   photos: {
-    img1: book8a,
-    img2: book8b,
-    img3: book8c,
-    img4: book8d,
+    img1: book8
   },
   about: [
     { description: 'A sweeping history of humanity from ancient times.' },
@@ -1236,10 +1222,7 @@ const productInventory = {
   price: '17.50',
   rating: 4.5,
   photos: {
-    img1: book9a,
-    img2: book9b,
-    img3: book9c,
-    img4: book9d,
+    img1: book9
   },
   about: [
     { description: 'A counterintuitive approach to living a better life.' },
@@ -1253,10 +1236,7 @@ const productInventory = {
   price: '11.99',
   rating: 4.4,
   photos: {
-    img1: book10a,
-    img2: book10b,
-    img3: book10c,
-    img4: book10d,
+    img1: book10
   },
   about: [
     { description: 'A classic personal development & success book.' },
@@ -1266,3 +1246,5 @@ const productInventory = {
 }
   ]
 };
+
+export default productInventory
