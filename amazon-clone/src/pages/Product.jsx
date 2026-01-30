@@ -1,9 +1,42 @@
-import React from 'react'
+import React from "react";
+import "./Product.css";
+import Navbar from "../components/Navbar";
+import ProductsAct from "../components/ProductsAct";
+import Footer from "../components/Footer";
+import PriceRange from "../components/PriceRange";
 
 const Product = () => {
   return (
-    <div>Product</div>
-  )
-}
+    <div className="Product">
+      <Navbar />
+      <div className="product__page--actual">
+        <div className="top__section"></div>
+        <div className="bottom__section">
+          <div className="top__bottom">
+            <div className="top__bottom-left">
+              <h1 className="products__title">Results</h1>
+              <p className="products__description">
+                Check each product page for other buying options. Price and
+                other details may vary based on product size and color.
+              </p>
+            </div>
+            <div className="top__bottom-right">
+                <PriceRange />
+                <select id="filter">
+                    <option value disabled selected>Filter</option>
+                    <option value='RATINGHIGH'>Rating, High to Low</option>
+                    <option value='RATINGLOW'>Rating, Low to High</option>
+                </select>
+            </div>
+          </div>
+          <div className="right__products">
+            <ProductsAct />
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
+};
 
-export default Product
+export default Product;

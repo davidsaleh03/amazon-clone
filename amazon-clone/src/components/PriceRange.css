@@ -1,0 +1,12 @@
+.priceRange {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 200px;
+}
+
+.priceLabel {
+  font-size: 14px;
+  font-weight: 500;
+}
+
