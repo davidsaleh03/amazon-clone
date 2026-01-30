@@ -17,12 +17,15 @@
 .banner-title {
     color: #242424;
     font-size: 24px;
-    margin-left: 12px;
+    margin-left: 22px;
 }
 
 .banner-title2 {
-    font-size: 12px;
+    font-size: 14px;
     color: blue;
+    margin-left: 22px;
+    margin-top: 12px;
+    cursor: pointer;
 }
 
 .product__display--section {
@@ -31,6 +34,7 @@
     overflow-x: auto;
     overflow-y: hidden;
     scroll-behavior: smooth;
+    margin: 0 22px;
 }
 
 .acutal__product {
@@ -38,6 +42,11 @@
     height: 150px;
     margin: 0 12px;
     flex: 0 0 auto;
+    cursor: pointer;
+}
+
+.acutal__product:first-child {
+margin-left: 0px !important;
 }
 .acutal__product img {
     width: 100%;

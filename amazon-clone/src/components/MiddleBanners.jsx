@@ -7,7 +7,6 @@ const MiddleBanners = ({title, id}) => {
     <div className='MiddleBanners'>
         <div className="middle-top__title">
         <h1 className="banner-title">{title}</h1>
-        <h1 className="banner-title2">See More</h1>
         </div>
         <div className="product__display--section">
             {
@@ -23,6 +22,7 @@ const MiddleBanners = ({title, id}) => {
                 })
             }
         </div>
+        <h1 className="banner-title2">See More</h1>
     </div>
   )
 }
