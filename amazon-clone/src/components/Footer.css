@@ -25,6 +25,9 @@
     padding: 24px 12px 0px 12px;
 
 }
+a {
+    color: white;
+}
 
 .footer__bottom {
     background-color: #131A22;

@@ -8,7 +8,7 @@ import banner3 from "../assets/banner-3.jpg";
 import banner4 from "../assets/banner-4.jpg";
 import banner5 from "../assets/banner-5.jpg";
 import "./UpperBanner.css";
-import productInventory from '../assets/products.js'
+import productInventory from "../assets/products.js";
 
 const slides = [banner1, banner2, banner3, banner4, banner5];
 
@@ -52,42 +52,76 @@ const UpperBanner = () => {
       </div>
       <div className="topmodules">
         <div className="module on__sale">
-            <h1 className="module__title">
-                Highly Rated in Amazon Basics
-            </h1>
-            <div className="module__content">
-
-            </div>
-            <h2 className="module__footer">See more</h2>
+          <h1 className="module__title">Highly Rated in Amazon Basics</h1>
+          <div className="module__content">
+            {productInventory.products
+              .filter(
+                (product) =>
+                  product.id === "amazonbasics" && product.rating === 5,
+              )
+              .map((product, productIndex) => {
+                return (
+                  <div className="figure__bestimg" key={productIndex}>
+                    <img src={product.photos.img1} alt="" />
+                  </div>
+                );
+              })}
+          </div>
+          <h2 className="module__footer">See more</h2>
         </div>
         <div className="module high__rated">
-            <h1 className="module__title">
-                Highly Rated in Home Decor
-            </h1>
-            <div className="module__content">
-                
-            </div>
-            <h2 className="module__footer">See more</h2>
+          <h1 className="module__title">Highly Rated in Home Decor</h1>
+          <div className="module__content">
+            {productInventory.products
+              .filter(
+                (product) => product.id === "homedecor" && product.rating === 5,
+              )
+              .map((product, productIndex) => {
+                return (
+                  <div className="figure__bestimg" key={productIndex}>
+                    <img src={product.photos.img1} alt="" />
+                  </div>
+                );
+              })}
+          </div>
+          <h2 className="module__footer">See more</h2>
         </div>
         <div className="module lowest__price">
-            <h1 className="module__title">
-                Highly Rated in Kitchen
-            </h1>
-            <div className="module__content">
-                
-            </div>
-            <h2 className="module__footer">See more</h2>
+          <h1 className="module__title">Highly Rated in Kitchen</h1>
+          <div className="module__content">
+            {productInventory.products
+              .filter(
+                (product) => product.id === "kitchen" && product.rating === 5,
+              )
+              .map((product, productIndex) => {
+                return (
+                  <div className="figure__bestimg" key={productIndex}>
+                    <img src={product.photos.img1} alt="" />
+                  </div>
+                );
+              })}
+          </div>
+          <h2 className="module__footer">See more</h2>
         </div>
         <div className="module module__last continue__shopping">
-            <h1 className="module__title">
-                Highly Rated in Electronics
-            </h1>
+            <h1 className="module__title">Highly Rated in Electronics</h1>
             <div className="module__content">
-                
+              {productInventory.products
+                .filter(
+                  (product) =>
+                    product.id === "electronics" && product.rating === 5,
+                )
+                .map((product, productIndex) => {
+                  return (
+                    <div className="figure__bestimg" key={productIndex}>
+                      <img src={product.photos.img1} alt="" />
+                    </div>
+                  );
+                })}
             </div>
             <h2 className="module__footer">See more</h2>
+          </div>
         </div>
-      </div>
     </div>
   );
 };

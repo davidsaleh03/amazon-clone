@@ -5,7 +5,9 @@ const Footer = () => {
   return (
     <div>
         <div className="home__to-top">
+            <a href="#top-area">
             <h1>Back to the top</h1>
+            </a>
         </div>
         <div className="footer__section">
            <ul className="footer__list">

@@ -180,7 +180,7 @@ const productInventory = {
       id: 'amazonbasics',
       name: 'Amazon Basics AAA Alkaline High-Performance Batteries (36-Pack)',
       price: '13.70',
-      rating: 4.5,
+      rating: 5,
       photos: {
         img1: basicsBattery1,
         img2: basicsBattery2,
@@ -218,7 +218,7 @@ const productInventory = {
       id: 'amazonbasics',
       name: 'Amazon Basics AA Alkaline High-Performance Batteries (48-Pack)',
       price: '18.45',
-      rating: 3.5,
+      rating: 4.5,
       photos: {
         img1: basics2Battery1,
         img2: basics2Battery2,
@@ -256,7 +256,7 @@ const productInventory = {
       id: 'amazonbasics',
       name: 'Amazon Basics Everyday Paper Plates, 8.62 Inch, Disposable (100 Count)',
       price: '5.99',
-      rating: 4.5,
+      rating: 3.5,
       photos: {
         img1: plates1,
         img2: plates2,
@@ -294,7 +294,7 @@ const productInventory = {
       id: 'amazonbasics',
       name: 'Amazon Basics High-Speed HDMI Cable (6 Feet)',
       price: '8.99',
-      rating: 2.5,
+      rating: 5,
       photos: {
         img1: cable1,
         img2: cable2,
@@ -332,7 +332,7 @@ const productInventory = {
       id: 'amazonbasics',
       name: 'Amazon Basics Adjustable Laptop Stand',
       price: '33.50',
-      rating: 3.5,
+      rating: 4,
       photos: {
         img1: stand1,
         img2: stand2,
@@ -366,6 +366,7 @@ const productInventory = {
       id: 'amazonbasics',
       name: 'Amazon Basics USB-C to USB-A Cable (3 Feet)',
       price: '7.25',
+      rating: 3,
       photos: {
         img1: charge1,
         img2: charge2,
@@ -395,6 +396,7 @@ const productInventory = {
       id: 'amazonbasics',
       name: 'Amazon Basics Mid-Back Mesh Office Chair',
       price: '89.99',
+      rating: 5,
       photos: {
         img1: chair1,
         img2: chair2,
@@ -432,6 +434,7 @@ const productInventory = {
       id: 'amazonbasics',
       name: 'Amazon Basics Slim Carry On Travel Backpack',
       price: '45.00',
+      rating: 4,
       photos: {
         img1: pack1,
         img2: pack2,
@@ -465,6 +468,7 @@ const productInventory = {
       id: 'amazonbasics',
       name: 'Amazon Basics 2-Ply Paper Towels (6 Rolls)',
       price: '11.80',
+      rating: 4.5,
       photos: {
         img1: towel1,
         img2: towel2,
@@ -502,6 +506,7 @@ const productInventory = {
       id: 'amazonbasics',
       name: 'Amazon Basics Wired Keyboard and Mouse Combo',
       price: '19.95',
+      rating: 5,
       photos: {
         img1: keyboard1,
         img2: keyboard2,
@@ -535,7 +540,7 @@ const productInventory = {
   id: 'homedecor',
   name: 'Modern Ceramic Table Lamp with Fabric Shade',
   price: '39.99',
-  rating: 4.4,
+  rating: 4,
   photos: {
     img1: lamp1,
     img2: lamp2,
@@ -552,10 +557,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'homedecor2',
+  id: 'homedecor',
   name: 'Decorative Wall Mirror with Gold Metal Frame',
   price: '54.50',
-  rating: 4.6,
+  rating: 5,
   photos: {
     img1: mirror1,
     img2: mirror2,
@@ -571,10 +576,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'homedecor3',
+  id: 'homedecor',
   name: 'Set of 3 Floating Wall Shelves – Rustic Wood',
   price: '32.99',
-  rating: 4.3,
+  rating: 3.5,
   photos: {
     img1: shelf1,
     img2: shelf2,
@@ -590,7 +595,7 @@ const productInventory = {
   ]
 },
 {
-  id: 'homedecor4',
+  id: 'homedecor',
   name: 'Luxury Decorative Throw Pillow Covers (Set of 2)',
   price: '18.75',
   rating: 4.5,
@@ -609,10 +614,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'homedecor5',
+  id: 'homedecor',
   name: 'Artificial Indoor Potted Plant – Faux Fiddle Leaf Fig',
   price: '27.90',
-  rating: 4.2,
+  rating: 5,
   photos: {
     img1: plant1,
     img2: plant2,
@@ -628,10 +633,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'homedecor6',
+  id: 'homedecor',
   name: 'Decorative LED String Lights – Warm White (20 ft)',
   price: '14.99',
-  rating: 4.6,
+  rating: 3,
   photos: {
     img1: lights1,
     img2: lights2,
@@ -647,10 +652,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'homedecor7',
+  id: 'homedecor',
   name: 'Decorative Area Rug – Boho Pattern (5x7 ft)',
   price: '64.99',
-  rating: 4.4,
+  rating: 4,
   photos: {
     img1: rug1,
     img2: rug2,
@@ -666,10 +671,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'homedecor8',
+  id: 'homedecor',
   name: 'Decorative Scented Candles – Set of 3',
   price: '22.50',
-  rating: 4.7,
+  rating: 5,
   photos: {
     img1: candles1,
     img2: candles2,
@@ -685,10 +690,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'homedecor9',
+  id: 'homedecor',
   name: 'Wooden Wall Clock – Silent Non-Ticking',
   price: '29.99',
-  rating: 4.3,
+  rating: 4.5,
   photos: {
     img1: clock1,
     img2: clock2,
@@ -704,10 +709,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'homedecor10',
+  id: 'homedecor',
   name: 'Decorative Storage Basket – Woven Cotton Rope',
   price: '24.95',
-  rating: 4.5,
+  rating: 5,
   photos: {
     img1: basket1,
     img2: basket2,
@@ -723,10 +728,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'kitchen1',
+  id: 'kitchen',
   name: 'Stainless Steel Knife Set with Block (8-Piece)',
   price: '49.99',
-  rating: 4.5,
+  rating: 5,
   photos: {
     img1: knifeSet1,
     img2: knifeSet2,
@@ -742,10 +747,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'kitchen2',
+  id: 'kitchen',
   name: 'Non-Stick Cookware Set (10-Piece)',
   price: '79.99',
-  rating: 4.3,
+  rating: 4.5,
   photos: {
     img1: cookware1,
     img2: cookware2,
@@ -761,10 +766,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'kitchen3',
+  id: 'kitchen',
   name: 'Digital Kitchen Scale with LCD',
   price: '19.99',
-  rating: 4.6,
+  rating: 3.5,
   photos: {
     img1: scale1,
     img2: scale2,
@@ -780,10 +785,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'kitchen4',
+  id: 'kitchen',
   name: 'Stovetop Espresso Maker – 6 Cup',
   price: '29.99',
-  rating: 4.4,
+  rating: 4,
   photos: {
     img1: espresso1,
     img2: espresso2,
@@ -799,10 +804,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'kitchen5',
+  id: 'kitchen',
   name: 'Silicone Cooking Utensil Set (7-Piece)',
   price: '24.99',
-  rating: 4.8,
+  rating: 5,
   photos: {
     img1: utensils1,
     img2: utensils2,
@@ -818,7 +823,7 @@ const productInventory = {
   ]
 },
 {
-  id: 'kitchen6',
+  id: 'kitchen',
   name: 'Ceramic Mixing Bowls (Set of 3)',
   price: '34.50',
   rating: 4.5,
@@ -837,10 +842,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'kitchen7',
+  id: 'kitchen',
   name: 'Stainless Steel Dish Drying Rack',
   price: '27.99',
-  rating: 4.4,
+  rating: 5,
   photos: {
     img1: rack1,
     img2: rack2,
@@ -856,10 +861,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'kitchen8',
+  id: 'kitchen',
   name: 'Glass Food Storage Containers (Set of 5)',
   price: '39.99',
-  rating: 4.7,
+  rating: 4,
   photos: {
     img1: storage1,
     img2: storage2,
@@ -875,10 +880,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'kitchen9',
+  id: 'kitchen',
   name: 'Electric Hand Mixer with Accessories',
   price: '29.90',
-  rating: 4.3,
+  rating: 5,
   photos: {
     img1: mixer1,
     img2: mixer2,
@@ -894,10 +899,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'kitchen10',
+  id: 'kitchen',
   name: 'Double Wall Insulated Stainless Steel Travel Mug',
   price: '19.75',
-  rating: 4.6,
+  rating: 4.5,
   photos: {
     img1: mug1,
     img2: mug2,
@@ -913,10 +918,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'electronics1',
+  id: 'electronics',
   name: 'Wireless Bluetooth Over-Ear Headphones',
   price: '59.99',
-  rating: 4.4,
+  rating: 4,
   photos: {
     img1: headphones1,
     img2: headphones2,
@@ -932,10 +937,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'electronics2',
+  id: 'electronics',
   name: 'Portable Bluetooth Speaker (Water-Resistant)',
   price: '39.99',
-  rating: 4.3,
+  rating: 5,
   photos: {
     img1: speaker1,
     img2: speaker2,
@@ -951,10 +956,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'electronics3',
+  id: 'electronics',
   name: 'Smart Wi-Fi Plug (2-Pack)',
   price: '24.95',
-  rating: 4.5,
+  rating: 3.5,
   photos: {
     img1: plug1,
     img2: plug2,
@@ -970,10 +975,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'electronics4',
+  id: 'electronics',
   name: '1080p Webcam with Built-In Microphone',
   price: '49.99',
-  rating: 4.2,
+  rating: 4.5,
   photos: {
     img1: webcam1,
     img2: webcam2,
@@ -989,10 +994,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'electronics5',
+  id: 'electronics',
   name: 'USB-C Fast Charging Wall Adapter',
   price: '14.99',
-  rating: 4.6,
+  rating: 5,
   photos: {
     img1: charger1,
     img2: charger2,
@@ -1008,10 +1013,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'electronics6',
+  id: 'electronics',
   name: 'Bluetooth Wireless Earbuds with Charging Case',
   price: '34.50',
-  rating: 4.1,
+  rating: 3.5,
   photos: {
     img1: earbuds1,
     img2: earbuds2,
@@ -1027,10 +1032,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'electronics7',
+  id: 'electronics',
   name: 'Multifunction Digital Alarm Clock',
   price: '22.99',
-  rating: 4.2,
+  rating: 4.5,
   photos: {
     img1: clockElec1,
     img2: clockElec2,
@@ -1046,10 +1051,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'electronics8',
+  id: 'electronics',
   name: 'Action Camera 4K Ultra HD',
   price: '79.99',
-  rating: 4.0,
+  rating: 5,
   photos: {
     img1: actionCam1,
     img2: actionCam2,
@@ -1065,10 +1070,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'electronics9',
+  id: 'electronics',
   name: 'Wireless Keyboard and Mouse Combo',
   price: '32.99',
-  rating: 4.3,
+  rating: 4.5,
   photos: {
     img1: keyboardElec1,
     img2: keyboardElec2,
@@ -1084,10 +1089,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'electronics10',
+  id: 'electronics',
   name: 'Portable Power Bank 10000mAh',
   price: '29.50',
-  rating: 4.5,
+  rating: 5,
   photos: {
     img1: powerBank1,
     img2: powerBank2,
@@ -1103,10 +1108,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'book1',
+  id: 'book',
   name: 'The Midnight Library – Matt Haig',
   price: '15.99',
-  rating: 4.6,
+  rating: 3.5,
   photos: {
     img1: book1
   },
@@ -1118,10 +1123,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'book2',
+  id: 'book',
   name: 'Atomic Habits – James Clear',
   price: '18.50',
-  rating: 4.8,
+  rating: 5,
   photos: {
     img1: book2
   },
@@ -1133,10 +1138,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'book3',
+  id: 'book',
   name: 'Where the Crawdads Sing – Delia Owens',
   price: '14.99',
-  rating: 4.7,
+  rating: 4,
   photos: {
     img1: book3
   },
@@ -1147,10 +1152,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'book4',
+  id: 'book',
   name: 'Educated – Tara Westover',
   price: '17.99',
-  rating: 4.7,
+  rating: 4.5,
   photos: {
     img1: book4
   },
@@ -1161,10 +1166,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'book5',
+  id: 'book',
   name: 'The Four Agreements – Don Miguel Ruiz',
   price: '12.95',
-  rating: 4.6,
+  rating: 5,
   photos: {
     img1: book5
   },
@@ -1175,10 +1180,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'book6',
+  id: 'book',
   name: 'Dune – Frank Herbert',
   price: '16.50',
-  rating: 4.8,
+  rating: 3.5,
   photos: {
     img1: book6
   },
@@ -1189,10 +1194,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'book7',
+  id: 'book',
   name: 'The Alchemist – Paulo Coelho',
   price: '13.99',
-  rating: 4.7,
+  rating: 4.5,
   photos: {
     img1: book7
   },
@@ -1203,10 +1208,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'book8',
+  id: 'book',
   name: 'Sapiens: A Brief History of Humankind – Yuval Noah Harari',
   price: '19.99',
-  rating: 4.7,
+  rating: 5,
   photos: {
     img1: book8
   },
@@ -1217,10 +1222,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'book9',
+  id: 'book',
   name: 'The Subtle Art of Not Giving a F*ck – Mark Manson',
   price: '17.50',
-  rating: 4.5,
+  rating: 4,
   photos: {
     img1: book9
   },
@@ -1231,10 +1236,10 @@ const productInventory = {
   ]
 },
 {
-  id: 'book10',
+  id: 'book',
   name: 'Think and Grow Rich – Napoleon Hill',
   price: '11.99',
-  rating: 4.4,
+  rating: 5,
   photos: {
     img1: book10
   },

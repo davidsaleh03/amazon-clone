@@ -8,16 +8,16 @@ import Footer from '../components/Footer'
 const Home = () => {
   return (
     <div className='home'>
-        <Navbar />
+        <Navbar id='top-area'/>
         <div className="home__top">
         <UpperBanner className='upper-banner'/>
         </div>
         <div className="home__middle">
-            <MiddleBanners title='Amazon Basics'/>
-            <MiddleBanners title='Home Decor'/>
-            <MiddleBanners title='Kitchen'/>
-            <MiddleBanners title='Electronics'/>
-            <MiddleBanners title='Books'/>
+            <MiddleBanners id='amazonbasics' title='Amazon Basics'/>
+            <MiddleBanners id='homedecor' title='Home Decor'/>
+            <MiddleBanners id='kitchen' title='Kitchen'/>
+            <MiddleBanners id='electronics' title='Electronics'/>
+            <MiddleBanners id='book' title='Books'/>
         </div>
         <div className="home__middle--low">
             <h1 className="low__title">See Personalized Reccomendations</h1>
