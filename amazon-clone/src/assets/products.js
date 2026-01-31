@@ -38,6 +38,46 @@ import keyboard1 from './keyboard-1.jpg'
 import keyboard2 from './keyboard-2.jpg'
 import keyboard3 from './keyboard-3.jpg'
 import keyboard4 from './keyboard-4.jpg'
+import cloth1 from './cloth-1.jpg'
+import cloth2 from './cloth-2.jpg'
+import cloth3 from './cloth-3.jpg'
+import cloth4 from './cloth-4.jpg'
+import mugbasic1 from './mugbasic-1.jpg'
+import mugbasic2 from './mugbasic-2.jpg'
+import mugbasic3 from './mugbasic-3.jpg'
+import mugbasic4 from './mugbasic-4.jpg'
+import scalebasic1 from './scalebasic-1.jpg'
+import scalebasic2 from './scalebasic-2.jpg'
+import scalebasic3 from './scalebasic-3.jpg'
+import scalebasic4 from './scalebasic-4.jpg'
+import pillowbasic1 from './pillowbasic-1.jpg'
+import pillowbasic2 from './pillowbasic-2.jpg'
+import pillowbasic3 from './pillowbasic-3.jpg'
+import pillowbasic4 from './pillowbasic-4.jpg'
+import shelfbasic1 from './shelfbasic-1.jpg'
+import shelfbasic2 from './shelfbasic-2.jpg'
+import shelfbasic3 from './shelfbasic-3.jpg'
+import shelfbasic4 from './shelfbasic-4.jpg'
+import cook1 from './cook-1.jpg'
+import cook2 from './cook-2.jpg'
+import cook3 from './cook-3.jpg'
+import cook4 from './cook-4.jpg'
+import dumb1 from './dumb-1.jpg'
+import dumb2 from './dumb-2.jpg'
+import dumb3 from './dumb-3.jpg'
+import dumb4 from './dumb-4.jpg'
+import kettle1 from './kettle-1.jpg'
+import kettle2 from './kettle-2.jpg'
+import kettle3 from './kettle-3.jpg'
+import kettle4 from './kettle-4.jpg'
+import ott1 from './ott-1.jpg'
+import ott2 from './ott-2.jpg'
+import ott3 from './ott-3.jpg'
+import ott4 from './ott-4.jpg'
+import strip1 from './strip-1.jpg'
+import strip2 from './strip-2.jpg'
+import strip3 from './strip-3.jpg'
+import strip4 from './strip-4.jpg'
 // home decor
 import lamp1 from './lamp-1.jpg'
 import lamp2 from './lamp-2.jpg'
@@ -79,6 +119,46 @@ import basket1 from './basket-1.jpg'
 import basket2 from './basket-2.jpg'
 import basket3 from './basket-3.jpg'
 import basket4 from './basket-4.jpg'
+import floorlamp1 from './floorlamp-1.jpg'
+import floorlamp2 from './floorlamp-2.jpg'
+import floorlamp3 from './floorlamp-3.jpg'
+import floorlamp4 from './floorlamp-4.jpg'
+import art1 from './art-1.jpg'
+import art2 from './art-2.jpg'
+import art3 from './art-3.jpg'
+import art4 from './art-4.jpg'
+import vase1 from './vase-1.jpg'
+import vase2 from './vase-2.jpg'
+import vase3 from './vase-3.jpg'
+import vase4 from './vase-4.jpg'
+import throw1 from './throw-1.jpg'
+import throw2 from './throw-2.jpg'
+import throw3 from './throw-3.jpg'
+import throw4 from './throw-4.jpg'
+import tray1 from './tray-1.jpg'
+import tray2 from './tray-2.jpg'
+import tray3 from './tray-3.jpg'
+import tray4 from './tray-4.jpg'
+import curtain1 from './curtain-1.jpg'
+import curtain2 from './curtain-2.jpg'
+import curtain3 from './curtain-3.jpg'
+import curtain4 from './curtain-4.jpg'
+import bookend1 from './bookend-1.jpg'
+import bookend2 from './bookend-2.jpg'
+import bookend3 from './bookend-3.jpg'
+import bookend4 from './bookend-4.jpg'
+import planter1 from './planter-1.jpg'
+import planter2 from './planter-2.jpg'
+import planter3 from './planter-3.jpg'
+import planter4 from './planter-4.jpg'
+import organizer1 from './organizer-1.jpg'
+import organizer2 from './organizer-2.jpg'
+import organizer3 from './organizer-3.jpg'
+import organizer4 from './organizer-4.jpg'
+import mat1 from './mat-1.jpg'
+import mat2 from './mat-2.jpg'
+import mat3 from './mat-3.jpg'
+import mat4 from './mat-4.jpg'
 // kitchen
 import knifeSet1 from './knifeSet-1.jpg'
 import knifeSet2 from './knifeSet-2.jpg'
@@ -120,6 +200,46 @@ import mug1 from './mug-1.jpg'
 import mug2 from './mug-2.jpg'
 import mug3 from './mug-3.jpg'
 import mug4 from './mug-4.jpg'
+import board1 from './board-1.jpg'
+import board2 from './board-2.jpg'
+import board3 from './board-3.jpg'
+import board4 from './board-4.jpg'
+import kitchenkettle1 from './kitchenkettle-1.jpg'
+import kitchenkettle2 from './kitchenkettle-2.jpg'
+import kitchenkettle3 from './kitchenkettle-3.jpg'
+import kitchenkettle4 from './kitchenkettle-4.jpg'
+import juicer1 from './juicer-1.jpg'
+import juicer2 from './juicer-2.jpg'
+import juicer3 from './juicer-3.jpg'
+import juicer4 from './juicer-4.jpg'
+import measure1 from './measure-1.jpg'
+import measure2 from './measure-2.jpg'
+import measure3 from './measure-3.jpg'
+import measure4 from './measure-4.jpg'
+import spice1 from './spice-1.jpg'
+import spice2 from './spice-2.jpg'
+import spice3 from './spice-3.jpg'
+import spice4 from './spice-4.jpg'
+import oil1 from './oil-1.jpg'
+import oil2 from './oil-2.jpg'
+import oil3 from './oil-3.jpg'
+import oil4 from './oil-4.jpg'
+import nonmat1 from './nonmat-1.jpg'
+import nonmat2 from './nonmat-2.jpg'
+import nonmat3 from './nonmat-3.jpg'
+import nonmat4 from './nonmat-4.jpg'
+import blender1 from './blender-1.jpg'
+import blender2 from './blender-2.jpg'
+import blender3 from './blender-3.jpg'
+import blender4 from './blender-4.jpg'
+import cover1 from './cover-1.jpg'
+import cover2 from './cover-2.jpg'
+import cover3 from './cover-3.jpg'
+import cover4 from './cover-4.jpg'
+import holder1 from './holder-1.jpg'
+import holder2 from './holder-2.jpg'
+import holder3 from './holder-3.jpg'
+import holder4 from './holder-4.jpg'
 // electronics
 import headphones1 from './headphones-1.jpg'
 import headphones2 from './headphones-2.jpg'
@@ -161,6 +281,46 @@ import powerBank1 from './powerBank-1.jpg'
 import powerBank2 from './powerBank-2.jpg'
 import powerBank3 from './powerBank-3.jpg'
 import powerBank4 from './powerBank-4.jpg'
+import inear1 from './inear-1.jpg'
+import inear2 from './inear-2.jpg'
+import inear3 from './inear-3.jpg'
+import inear4 from './inear-4.jpg'
+import hdmi1 from './hdmi-1.jpg'
+import hdmi2 from './hdmi-2.jpg'
+import hdmi3 from './hdmi-3.jpg'
+import hdmi4 from './hdmi-4.jpg'
+import deskfan1 from './deskfan-1.jpg'
+import deskfan2 from './deskfan-2.jpg'
+import deskfan3 from './deskfan-3.jpg'
+import deskfan4 from './deskfan-4.jpg'
+import mount1 from './mount-1.jpg'
+import mount2 from './mount-2.jpg'
+import mount3 from './mount-3.jpg'
+import mount4 from './mount-4.jpg'
+import transmitter1 from './transmitter-1.jpg'
+import transmitter2 from './transmitter-2.jpg'
+import transmitter3 from './transmitter-3.jpg'
+import transmitter4 from './transmitter-4.jpg'
+import cooling1 from './cooling-1.jpg'
+import cooling2 from './cooling-2.jpg'
+import cooling3 from './cooling-3.jpg'
+import cooling4 from './cooling-4.jpg'
+import smartbulb1 from './smartbulb-1.jpg'
+import smartbulb2 from './smartbulb-2.jpg'
+import smartbulb3 from './smartbulb-3.jpg'
+import smartbulb4 from './smartbulb-4.jpg'
+import dvd1 from './dvd-1.jpg'
+import dvd2 from './dvd-2.jpg'
+import dvd3 from './dvd-3.jpg'
+import dvd4 from './dvd-4.jpg'
+import wirelessCharge1 from './wirelessCharge-1.jpg'
+import wirelessCharge2 from './wirelessCharge-2.jpg'
+import wirelessCharge3 from './wirelessCharge-3.jpg'
+import wirelessCharge4 from './wirelessCharge-4.jpg'
+import hub1 from './hub-1.jpg'
+import hub2 from './hub-2.jpg'
+import hub3 from './hub-3.jpg'
+import hub4 from './hub-4.jpg'
 import book1 from './book-1.jpg'
 import book2 from './book-2.jpg'
 import book3 from './book-3.jpg'
@@ -171,6 +331,16 @@ import book7 from './book-7.jpg'
 import book8 from './book-8.jpg'
 import book9 from './book-9.jpg'
 import book10 from './book-10.jpg'
+import book11 from './book-11.jpg'
+import book12 from './book-12.jpg'
+import book13 from './book-13.jpg'
+import book14 from './book-14.jpg'
+import book15 from './book-15.jpg'
+import book16 from './book-16.jpg'
+import book17 from './book-17.jpg'
+import book18 from './book-18.jpg'
+import book19 from './book-19.jpg'
+import book20 from './book-20.jpg'
 
 
 
@@ -536,6 +706,197 @@ const productInventory = {
         }
       ]
     },
+    //start more
+    {
+  id: 'amazonbasics',
+  name: 'Amazon Basics Microfiber Cleaning Cloths (24-Pack)',
+  price: '12.99',
+  rating: 4.5,
+  photos: {
+    img1: cloth1,
+    img2: cloth2,
+    img3: cloth3,
+    img4: cloth4,
+  },
+  about: [
+    { description: 'IN THE BOX: 24 microfiber cleaning cloths for everyday cleaning tasks' },
+    { description: 'HIGHLY ABSORBENT: Traps dust, dirt, and liquids without scratching surfaces' },
+    { description: 'MULTI-PURPOSE: Ideal for glass, kitchen surfaces, cars, electronics, and more' },
+    { description: 'REUSABLE & WASHABLE: Durable cloths designed for repeated use' },
+    { description: 'LINT-FREE: Leaves surfaces clean and streak-free' },
+  ]
+},
+{
+  id: 'amazonbasics',
+  name: 'Amazon Basics Stainless Steel Travel Mug (16 oz)',
+  price: '14.50',
+  rating: 4,
+  photos: {
+    img1: mugbasic1,
+    img2: mugbasic2,
+    img3: mugbasic3,
+    img4: mugbasic4,
+  },
+  about: [
+    { description: 'DOUBLE-WALL INSULATION: Keeps drinks hot or cold for hours' },
+    { description: 'DURABLE DESIGN: Made from stainless steel for long-lasting use' },
+    { description: 'SPILL-RESISTANT LID: Helps prevent leaks during travel' },
+    { description: 'STANDARD SIZE: Fits most car cup holders' },
+    { description: 'EVERYDAY USE: Ideal for commuting, travel, or office use' },
+  ]
+},
+{
+  id: 'amazonbasics',
+  name: 'Amazon Basics Digital Kitchen Scale',
+  price: '16.99',
+  rating: 4.5,
+  photos: {
+    img1: scalebasic1,
+    img2: scalebasic2,
+    img3: scalebasic3,
+    img4: scalebasic4,
+  },
+  about: [
+    { description: 'PRECISION MEASUREMENT: Measures in grams, ounces, pounds, and milliliters' },
+    { description: 'EASY-TO-READ DISPLAY: Clear LCD screen for quick readings' },
+    { description: 'SLIM DESIGN: Compact size fits easily in drawers or cabinets' },
+    { description: 'TARE FUNCTION: Allows accurate measurement of ingredients' },
+    { description: 'VERSATILE USE: Ideal for baking, cooking, and meal prep' },
+  ]
+},
+{
+  id: 'amazonbasics',
+  name: 'Amazon Basics Memory Foam Bed Pillow',
+  price: '39.99',
+  rating: 4,
+  photos: {
+    img1: pillowbasic1,
+    img2: pillowbasic2,
+    img3: pillowbasic3,
+    img4: pillowbasic4,
+  },
+  about: [
+    { description: 'MEMORY FOAM SUPPORT: Contours to head and neck for comfort' },
+    { description: 'BREATHABLE COVER: Helps regulate temperature throughout the night' },
+    { description: 'STANDARD SIZE: Fits most pillowcases' },
+    { description: 'PRESSURE RELIEF: Designed to reduce neck and shoulder strain' },
+    { description: 'EASY CARE: Removable and washable pillow cover' },
+  ]
+},
+{
+  id: 'amazonbasics',
+  name: 'Amazon Basics 5-Shelf Adjustable Storage Shelving Unit',
+  price: '72.00',
+  rating: 4.5,
+  photos: {
+    img1: shelfbasic1,
+    img2: shelfbasic2,
+    img3: shelfbasic3,
+    img4: shelfbasic4,
+  },
+  about: [
+    { description: 'HEAVY-DUTY STEEL: Strong wire construction for durability' },
+    { description: 'ADJUSTABLE SHELVES: Customize shelf height to fit your needs' },
+    { description: 'MULTI-USE STORAGE: Ideal for garage, kitchen, or office organization' },
+    { description: 'EASY ASSEMBLY: No tools required' },
+    { description: 'HIGH CAPACITY: Supports heavy loads when evenly distributed' },
+  ]
+},
+{
+  id: 'amazonbasics',
+  name: 'Amazon Basics Non-Stick Cookware Set (8-Piece)',
+  price: '64.95',
+  rating: 4,
+  photos: {
+    img1: cook1,
+    img2: cook2,
+    img3: cook3,
+    img4: cook4,
+  },
+  about: [
+    { description: '8-PIECE SET: Includes pots, pans, and lids for everyday cooking' },
+    { description: 'NON-STICK COATING: Allows easy food release and cleanup' },
+    { description: 'EVEN HEAT DISTRIBUTION: Aluminum construction for consistent cooking' },
+    { description: 'ERGONOMIC HANDLES: Comfortable grip and control' },
+    { description: 'COMPATIBILITY: Suitable for gas and electric stovetops' },
+  ]
+},
+{
+  id: 'amazonbasics',
+  name: 'Amazon Basics Adjustable Dumbbell Set (38 lbs)',
+  price: '59.99',
+  rating: 4.5,
+  photos: {
+    img1: dumb1,
+    img2: dumb2,
+    img3: dumb3,
+    img4: dumb4,
+  },
+  about: [
+    { description: 'ADJUSTABLE WEIGHTS: Customize resistance for different workouts' },
+    { description: 'DURABLE PLATES: Made from solid materials for long-term use' },
+    { description: 'NON-SLIP GRIP: Textured handles for secure lifting' },
+    { description: 'HOME FITNESS: Ideal for strength training at home' },
+    { description: 'COMPACT STORAGE: Easy to store when not in use' },
+  ]
+},
+{
+  id: 'amazonbasics',
+  name: 'Amazon Basics Electric Kettle (1.7L)',
+  price: '29.95',
+  rating: 4,
+  photos: {
+    img1: kettle1,
+    img2: kettle2,
+    img3: kettle3,
+    img4: kettle4,
+  },
+  about: [
+    { description: 'FAST BOILING: Powerful heating element for quick water boiling' },
+    { description: 'AUTO SHUT-OFF: Turns off automatically for safety' },
+    { description: 'LARGE CAPACITY: 1.7-liter capacity for multiple servings' },
+    { description: 'CORDLESS DESIGN: Easy pouring and serving' },
+    { description: 'VERSATILE USE: Perfect for tea, coffee, and instant meals' },
+  ]
+},
+{
+  id: 'amazonbasics',
+  name: 'Amazon Basics Faux Leather Storage Ottoman',
+  price: '49.99',
+  rating: 4.5,
+  photos: {
+    img1: ott1,
+    img2: ott2,
+    img3: ott3,
+    img4: ott4,
+  },
+  about: [
+    { description: 'HIDDEN STORAGE: Provides extra space for blankets, books, or accessories' },
+    { description: 'STURDY DESIGN: Supports seating and everyday use' },
+    { description: 'FAUX LEATHER FINISH: Stylish and easy to clean' },
+    { description: 'MULTI-FUNCTIONAL: Can be used as a seat, footrest, or storage box' },
+    { description: 'SPACE-SAVING: Ideal for apartments and small spaces' },
+  ]
+},
+{
+  id: 'amazonbasics',
+  name: 'Amazon Basics 3-Outlet Power Strip with Surge Protection',
+  price: '14.25',
+  rating: 4,
+  photos: {
+    img1: strip1,
+    img2: strip2,
+    img3: strip3,
+    img4: strip4,
+  },
+  about: [
+    { description: 'SURGE PROTECTION: Helps safeguard electronics from power spikes' },
+    { description: '3 OUTLETS: Expands a single wall outlet into three' },
+    { description: 'COMPACT DESIGN: Ideal for home, office, or travel use' },
+    { description: 'DURABLE BUILD: Designed for long-lasting performance' },
+    { description: 'EVERYDAY ESSENTIAL: Suitable for lamps, chargers, and small electronics' },
+  ]
+},
     {
   id: 'homedecor',
   name: 'Modern Ceramic Table Lamp with Fabric Shade',
@@ -725,6 +1086,197 @@ const productInventory = {
     { description: 'Soft yet durable material safe for floors' },
     { description: 'Neutral color fits most décor styles' },
     { description: 'Foldable design for easy storage' },
+  ]
+},
+//start here
+{
+  id: 'homedecor',
+  name: 'Minimalist Metal Floor Lamp with Linen Shade',
+  price: '69.99',
+  rating: 4.5,
+  photos: {
+    img1: floorlamp1,
+    img2: floorlamp2,
+    img3: floorlamp3,
+    img4: floorlamp4,
+  },
+  about: [
+    { description: 'Slim metal frame with neutral linen fabric shade' },
+    { description: 'Provides soft ambient lighting for living rooms or bedrooms' },
+    { description: 'Foot pedal switch for easy on/off control' },
+    { description: 'Compatible with standard E26 bulbs (not included)' },
+    { description: 'Modern design complements contemporary interiors' },
+  ]
+},
+{
+  id: 'homedecor',
+  name: 'Decorative Accent Wall Art – Abstract Canvas Print',
+  price: '41.25',
+  rating: 4,
+  photos: {
+    img1: art1,
+    img2: art2,
+    img3: art3,
+    img4: art4,
+  },
+  about: [
+    { description: 'High-quality printed canvas with abstract design' },
+    { description: 'Adds a modern artistic touch to any space' },
+    { description: 'Lightweight frame for easy hanging' },
+    { description: 'Fade-resistant inks for long-lasting color' },
+    { description: 'Ideal for living rooms, bedrooms, or offices' },
+  ]
+},
+{
+  id: 'homedecor',
+  name: 'Decorative Ceramic Vase – Matte Neutral Finish',
+  price: '26.80',
+  rating: 3.5,
+  photos: {
+    img1: vase1,
+    img2: vase2,
+    img3: vase3,
+    img4: vase4,
+  },
+  about: [
+    { description: 'Matte ceramic vase with clean modern lines' },
+    { description: 'Perfect for dried flowers or decorative branches' },
+    { description: 'Neutral color blends seamlessly with most décor styles' },
+    { description: 'Stable base prevents tipping' },
+    { description: 'Works well as a tabletop or shelf accent' },
+  ]
+},
+{
+  id: 'homedecor',
+  name: 'Soft Knit Decorative Throw Blanket',
+  price: '34.99',
+  rating: 4.5,
+  photos: {
+    img1: throw1,
+    img2: throw2,
+    img3: throw3,
+    img4: throw4,
+  },
+  about: [
+    { description: 'Soft knit fabric provides warmth and comfort' },
+    { description: 'Lightweight design suitable for all seasons' },
+    { description: 'Perfect for couches, beds, and reading chairs' },
+    { description: 'Machine washable for easy maintenance' },
+    { description: 'Adds texture and coziness to living spaces' },
+  ]
+},
+{
+  id: 'homedecor',
+  name: 'Decorative Tabletop Tray – Faux Marble Finish',
+  price: '21.50',
+  rating: 4,
+  photos: {
+    img1: tray1,
+    img2: tray2,
+    img3: tray3,
+    img4: tray4,
+  },
+  about: [
+    { description: 'Elegant faux marble surface with raised edges' },
+    { description: 'Ideal for organizing candles, perfumes, or keys' },
+    { description: 'Lightweight yet durable construction' },
+    { description: 'Easy to wipe clean with a damp cloth' },
+    { description: 'Stylish accent for coffee tables or vanities' },
+  ]
+},
+{
+  id: 'homedecor',
+  name: 'Decorative Curtain Panels – Sheer White (Set of 2)',
+  price: '28.99',
+  rating: 3.5,
+  photos: {
+    img1: curtain1,
+    img2: curtain2,
+    img3: curtain3,
+    img4: curtain4,
+  },
+  about: [
+    { description: 'Sheer fabric gently filters natural light' },
+    { description: 'Creates an airy and bright atmosphere' },
+    { description: 'Rod pocket design for easy installation' },
+    { description: 'Fits standard curtain rods' },
+    { description: 'Perfect for living rooms and bedrooms' },
+  ]
+},
+{
+  id: 'homedecor',
+  name: 'Decorative Bookends – Modern Geometric Design',
+  price: '19.95',
+  rating: 4,
+  photos: {
+    img1: bookend1,
+    img2: bookend2,
+    img3: bookend3,
+    img4: bookend4,
+  },
+  about: [
+    { description: 'Stylish geometric shape adds visual interest' },
+    { description: 'Keeps books upright and organized' },
+    { description: 'Durable metal construction' },
+    { description: 'Non-slip base protects surfaces' },
+    { description: 'Ideal for shelves, desks, or side tables' },
+  ]
+},
+{
+  id: 'homedecor',
+  name: 'Decorative Indoor Wall Planter – Metal Frame',
+  price: '37.40',
+  rating: 4.5,
+  photos: {
+    img1: planter1,
+    img2: planter2,
+    img3: planter3,
+    img4: planter4,
+  },
+  about: [
+    { description: 'Metal wall-mounted planter with minimalist frame' },
+    { description: 'Perfect for small plants or faux greenery' },
+    { description: 'Saves floor space while adding visual interest' },
+    { description: 'Easy wall mounting with included hardware' },
+    { description: 'Great accent for modern interiors' },
+  ]
+},
+{
+  id: 'homedecor',
+  name: 'Decorative Bathroom Counter Organizer',
+  price: '23.99',
+  rating: 3,
+  photos: {
+    img1: organizer1,
+    img2: organizer2,
+    img3: organizer3,
+    img4: organizer4,
+  },
+  about: [
+    { description: 'Keeps toiletries and accessories neatly organized' },
+    { description: 'Compact design fits most bathroom counters' },
+    { description: 'Durable construction for daily use' },
+    { description: 'Helps reduce clutter and improve accessibility' },
+    { description: 'Neutral look blends with various décor styles' },
+  ]
+},
+{
+  id: 'homedecor',
+  name: 'Decorative Entryway Doormat – Indoor Use',
+  price: '17.99',
+  rating: 4,
+  photos: {
+    img1: mat1,
+    img2: mat2,
+    img3: mat3,
+    img4: mat4,
+  },
+  about: [
+    { description: 'Soft fabric surface suitable for indoor entryways' },
+    { description: 'Helps trap dirt and debris from shoes' },
+    { description: 'Non-slip backing for added safety' },
+    { description: 'Low-profile design fits under doors easily' },
+    { description: 'Easy to shake out or vacuum clean' },
   ]
 },
 {
@@ -917,6 +1469,197 @@ const productInventory = {
     { description: 'Durable stainless steel construction' },
   ]
 },
+//start here
+{
+  id: 'kitchen',
+  name: 'Bamboo Cutting Board Set (3-Piece)',
+  price: '29.99',
+  rating: 4.5,
+  photos: {
+    img1: board1,
+    img2: board2,
+    img3: board3,
+    img4: board4,
+  },
+  about: [
+    { description: 'Set of 3 bamboo cutting boards in assorted sizes' },
+    { description: 'Knife-friendly surface helps reduce blade dulling' },
+    { description: 'Juice groove prevents messes on countertops' },
+    { description: 'Naturally resistant to moisture and odors' },
+    { description: 'Easy to clean and store' },
+  ]
+},
+{
+  id: 'kitchen',
+  name: 'Electric Water Kettle (1.7L)',
+  price: '34.99',
+  rating: 4,
+  photos: {
+    img1: kitchenkettle1,
+    img2: kitchenkettle2,
+    img3: kitchenkettle3,
+    img4: kitchenkettle4,
+  },
+  about: [
+    { description: 'Fast-boiling electric kettle with 1.7L capacity' },
+    { description: 'Automatic shut-off and boil-dry protection' },
+    { description: 'Cordless design with 360-degree base' },
+    { description: 'Stainless steel interior for durability' },
+    { description: 'Ideal for tea, coffee, and instant meals' },
+  ]
+},
+{
+  id: 'kitchen',
+  name: 'Manual Citrus Juicer',
+  price: '17.50',
+  rating: 3.5,
+  photos: {
+    img1: juicer1,
+    img2: juicer2,
+    img3: juicer3,
+    img4: juicer4,
+  },
+  about: [
+    { description: 'Handheld citrus juicer for lemons and limes' },
+    { description: 'Extracts juice efficiently with minimal effort' },
+    { description: 'Durable metal construction' },
+    { description: 'Compact size fits easily in drawers' },
+    { description: 'Dishwasher safe for easy cleaning' },
+  ]
+},
+{
+  id: 'kitchen',
+  name: 'Stainless Steel Measuring Cups & Spoons Set',
+  price: '21.99',
+  rating: 4.5,
+  photos: {
+    img1: measure1,
+    img2: measure2,
+    img3: measure3,
+    img4: measure4,
+  },
+  about: [
+    { description: 'Complete set of measuring cups and spoons' },
+    { description: 'Engraved measurements won’t fade over time' },
+    { description: 'Rust-resistant stainless steel construction' },
+    { description: 'Nesting design with storage ring' },
+    { description: 'Great for baking and cooking accuracy' },
+  ]
+},
+{
+  id: 'kitchen',
+  name: 'Countertop Spice Rack Organizer',
+  price: '26.75',
+  rating: 4,
+  photos: {
+    img1: spice1,
+    img2: spice2,
+    img3: spice3,
+    img4: spice4,
+  },
+  about: [
+    { description: 'Holds up to 18 standard spice jars' },
+    { description: 'Tiered design for easy visibility and access' },
+    { description: 'Durable metal frame with non-slip feet' },
+    { description: 'Compact footprint saves counter space' },
+    { description: 'Ideal for organized cooking prep' },
+  ]
+},
+{
+  id: 'kitchen',
+  name: 'Oil Dispenser Bottle with Pour Spout',
+  price: '14.99',
+  rating: 3,
+  photos: {
+    img1: oil1,
+    img2: oil2,
+    img3: oil3,
+    img4: oil4,
+  },
+  about: [
+    { description: 'Glass bottle with stainless steel pour spout' },
+    { description: 'Controlled pouring reduces spills and waste' },
+    { description: 'Suitable for oil, vinegar, or soy sauce' },
+    { description: 'Easy to refill and clean' },
+    { description: 'Sleek design for countertop use' },
+  ]
+},
+{
+  id: 'kitchen',
+  name: 'Non-Slip Kitchen Mat',
+  price: '24.50',
+  rating: 4.5,
+  photos: {
+    img1: nonmat1,
+    img2: nonmat2,
+    img3: nonmat3,
+    img4: nonmat4,
+  },
+  about: [
+    { description: 'Cushioned mat provides comfort while standing' },
+    { description: 'Non-slip backing keeps mat securely in place' },
+    { description: 'Water-resistant and easy to wipe clean' },
+    { description: 'Helps reduce foot and leg fatigue' },
+    { description: 'Ideal for sinks and prep areas' },
+  ]
+},
+{
+  id: 'kitchen',
+  name: 'Immersion Hand Blender',
+  price: '44.99',
+  rating: 4,
+  photos: {
+    img1: blender1,
+    img2: blender2,
+    img3: blender3,
+    img4: blender4,
+  },
+  about: [
+    { description: 'Powerful immersion blender for soups and sauces' },
+    { description: 'Stainless steel blending shaft' },
+    { description: 'One-touch operation for easy control' },
+    { description: 'Detachable parts for easy cleaning' },
+    { description: 'Compact design for convenient storage' },
+  ]
+},
+{
+  id: 'kitchen',
+  name: 'Microwave Food Cover',
+  price: '12.99',
+  rating: 3.5,
+  photos: {
+    img1: cover1,
+    img2: cover2,
+    img3: cover3,
+    img4: cover4,
+  },
+  about: [
+    { description: 'Prevents food splatter inside the microwave' },
+    { description: 'Vented design allows steam to escape' },
+    { description: 'Fits most standard plates and bowls' },
+    { description: 'Heat-resistant and BPA-free plastic' },
+    { description: 'Easy to clean and store' },
+  ]
+},
+{
+  id: 'kitchen',
+  name: 'Under-Cabinet Paper Towel Holder',
+  price: '18.25',
+  rating: 4,
+  photos: {
+    img1: holder1,
+    img2: holder2,
+    img3: holder3,
+    img4: holder4,
+  },
+  about: [
+    { description: 'Mounts under cabinets to save counter space' },
+    { description: 'Fits standard and jumbo paper towel rolls' },
+    { description: 'Durable metal construction' },
+    { description: 'Easy installation with included hardware' },
+    { description: 'Keeps paper towels easily accessible' },
+  ]
+},
 {
   id: 'electronics',
   name: 'Wireless Bluetooth Over-Ear Headphones',
@@ -1107,8 +1850,199 @@ const productInventory = {
     { description: 'LED indicator displays remaining power' },
   ]
 },
+//start here
 {
-  id: 'book',
+  id: 'electronics',
+  name: 'Noise-Isolating Wired In-Ear Headphones',
+  price: '18.99',
+  rating: 4.5,
+  photos: {
+    img1: inear1,
+    img2: inear2,
+    img3: inear3,
+    img4: inear4,
+  },
+  about: [
+    { description: 'Wired in-ear headphones with noise-isolating design' },
+    { description: 'Clear sound with balanced bass and treble' },
+    { description: 'In-line microphone for hands-free calls' },
+    { description: 'Comfortable silicone ear tips included' },
+    { description: '3.5mm jack compatible with most devices' },
+  ]
+},
+{
+  id: 'electronics',
+  name: 'HDMI to HDMI Cable (6 ft)',
+  price: '12.49',
+  rating: 4,
+  photos: {
+    img1: hdmi1,
+    img2: hdmi2,
+    img3: hdmi3,
+    img4: hdmi4,
+  },
+  about: [
+    { description: 'High-speed HDMI cable for audio and video transmission' },
+    { description: 'Supports Full HD and 4K resolution' },
+    { description: 'Gold-plated connectors for reliable signal' },
+    { description: 'Durable outer jacket for long-lasting use' },
+    { description: 'Compatible with TVs, monitors, and gaming consoles' },
+  ]
+},
+{
+  id: 'electronics',
+  name: 'USB Desk Fan with Adjustable Tilt',
+  price: '21.75',
+  rating: 3.5,
+  photos: {
+    img1: deskfan1,
+    img2: deskfan2,
+    img3: deskfan3,
+    img4: deskfan4,
+  },
+  about: [
+    { description: 'Compact desk fan powered via USB' },
+    { description: 'Adjustable tilt for targeted airflow' },
+    { description: 'Quiet operation suitable for offices' },
+    { description: 'Energy-efficient motor design' },
+    { description: 'Ideal for desks and small spaces' },
+  ]
+},
+{
+  id: 'electronics',
+  name: 'Car Phone Mount with Dashboard Clamp',
+  price: '19.99',
+  rating: 4.5,
+  photos: {
+    img1: mount1,
+    img2: mount2,
+    img3: mount3,
+    img4: mount4,
+  },
+  about: [
+    { description: 'Secure dashboard-mounted phone holder' },
+    { description: '360-degree rotation for optimal viewing angles' },
+    { description: 'One-hand operation for easy mounting' },
+    { description: 'Fits most smartphones and cases' },
+    { description: 'Non-slip grip for stable driving use' },
+  ]
+},
+{
+  id: 'electronics',
+  name: 'Bluetooth FM Transmitter for Car',
+  price: '27.50',
+  rating: 4,
+  photos: {
+    img1: transmitter1,
+    img2: transmitter2,
+    img3: transmitter3,
+    img4: transmitter4,
+  },
+  about: [
+    { description: 'Streams audio from phone to car stereo via FM signal' },
+    { description: 'Built-in microphone for hands-free calling' },
+    { description: 'Dual USB ports for charging devices' },
+    { description: 'LED display shows frequency and voltage' },
+    { description: 'Compatible with most vehicles' },
+  ]
+},
+{
+  id: 'electronics',
+  name: 'Adjustable Laptop Cooling Pad',
+  price: '36.99',
+  rating: 4.5,
+  photos: {
+    img1: cooling1,
+    img2: cooling2,
+    img3: cooling3,
+    img4: cooling4,
+  },
+  about: [
+    { description: 'Built-in fans improve laptop heat dissipation' },
+    { description: 'Adjustable height for ergonomic comfort' },
+    { description: 'USB-powered with low noise operation' },
+    { description: 'Non-slip surface keeps laptop stable' },
+    { description: 'Compatible with laptops up to 17 inches' },
+  ]
+},
+{
+  id: 'electronics',
+  name: 'Smart LED Light Bulb (Color Changing)',
+  price: '16.95',
+  rating: 3,
+  photos: {
+    img1: smartbulb1,
+    img2: smartbulb2,
+    img3: smartbulb3,
+    img4: smartbulb4,
+  },
+  about: [
+    { description: 'Color-changing LED bulb with app control' },
+    { description: 'Adjust brightness and lighting modes' },
+    { description: 'Works with Alexa and Google Assistant' },
+    { description: 'Energy-efficient LED technology' },
+    { description: 'Standard E26 base fits most fixtures' },
+  ]
+},
+{
+  id: 'electronics',
+  name: 'External USB DVD Drive',
+  price: '33.25',
+  rating: 4,
+  photos: {
+    img1: dvd1,
+    img2: dvd2,
+    img3: dvd3,
+    img4: dvd4,
+  },
+  about: [
+    { description: 'External DVD drive for laptops and desktops' },
+    { description: 'Plug-and-play USB connection' },
+    { description: 'Supports CD/DVD read and write' },
+    { description: 'Slim portable design' },
+    { description: 'Compatible with Windows and macOS' },
+  ]
+},
+{
+  id: 'electronics',
+  name: 'Wireless Charging Pad (Qi Compatible)',
+  price: '22.49',
+  rating: 4.5,
+  photos: {
+    img1: wirelessCharge1,
+    img2: wirelessCharge2,
+    img3: wirelessCharge3,
+    img4: wirelessCharge4,
+  },
+  about: [
+    { description: 'Qi-certified wireless charging pad' },
+    { description: 'Supports compatible smartphones and earbuds' },
+    { description: 'Slim design for desks and nightstands' },
+    { description: 'Anti-slip surface keeps device in place' },
+    { description: 'LED indicator shows charging status' },
+  ]
+},
+{
+  id: 'electronics',
+  name: 'USB-C Hub Multiport Adapter',
+  price: '45.00',
+  rating: 4,
+  photos: {
+    img1: hub1,
+    img2: hub2,
+    img3: hub3,
+    img4: hub4,
+  },
+  about: [
+    { description: 'Expands USB-C port into multiple connections' },
+    { description: 'Includes USB-A, HDMI, and SD card slots' },
+    { description: 'Supports high-speed data transfer' },
+    { description: 'Compact aluminum housing for durability' },
+    { description: 'Ideal for laptops and tablets with USB-C' },
+  ]
+},
+{
+  id: 'books',
   name: 'The Midnight Library – Matt Haig',
   price: '15.99',
   rating: 3.5,
@@ -1123,7 +2057,7 @@ const productInventory = {
   ]
 },
 {
-  id: 'book',
+  id: 'books',
   name: 'Atomic Habits – James Clear',
   price: '18.50',
   rating: 5,
@@ -1138,7 +2072,7 @@ const productInventory = {
   ]
 },
 {
-  id: 'book',
+  id: 'books',
   name: 'Where the Crawdads Sing – Delia Owens',
   price: '14.99',
   rating: 4,
@@ -1152,7 +2086,7 @@ const productInventory = {
   ]
 },
 {
-  id: 'book',
+  id: 'books',
   name: 'Educated – Tara Westover',
   price: '17.99',
   rating: 4.5,
@@ -1166,7 +2100,7 @@ const productInventory = {
   ]
 },
 {
-  id: 'book',
+  id: 'books',
   name: 'The Four Agreements – Don Miguel Ruiz',
   price: '12.95',
   rating: 5,
@@ -1180,7 +2114,7 @@ const productInventory = {
   ]
 },
 {
-  id: 'book',
+  id: 'books',
   name: 'Dune – Frank Herbert',
   price: '16.50',
   rating: 3.5,
@@ -1194,7 +2128,7 @@ const productInventory = {
   ]
 },
 {
-  id: 'book',
+  id: 'books',
   name: 'The Alchemist – Paulo Coelho',
   price: '13.99',
   rating: 4.5,
@@ -1208,7 +2142,7 @@ const productInventory = {
   ]
 },
 {
-  id: 'book',
+  id: 'books',
   name: 'Sapiens: A Brief History of Humankind – Yuval Noah Harari',
   price: '19.99',
   rating: 5,
@@ -1222,7 +2156,7 @@ const productInventory = {
   ]
 },
 {
-  id: 'book',
+  id: 'books',
   name: 'The Subtle Art of Not Giving a F*ck – Mark Manson',
   price: '17.50',
   rating: 4,
@@ -1236,7 +2170,7 @@ const productInventory = {
   ]
 },
 {
-  id: 'book',
+  id: 'books',
   name: 'Think and Grow Rich – Napoleon Hill',
   price: '11.99',
   rating: 5,
@@ -1248,7 +2182,149 @@ const productInventory = {
     { description: 'Timeless principles for wealth and mindset.' },
     { description: 'Based on interviews with successful figures.' },
   ]
+},
+//start here
+{
+  id: 'books',
+  name: 'The Night Circus – Erin Morgenstern',
+  price: '16.25',
+  rating: 4.5,
+  photos: {
+    img1: book11
+  },
+  about: [
+    { description: 'A magical realism novel set in a mysterious circus.' },
+    { description: 'Rich atmosphere and lyrical storytelling.' },
+    { description: 'A tale of love, rivalry, and illusion.' },
+  ]
+},
+{
+  id: 'books',
+  name: 'Normal People – Sally Rooney',
+  price: '14.50',
+  rating: 4,
+  photos: {
+    img1: book12
+  },
+  about: [
+    { description: 'An intimate story of love, friendship, and identity.' },
+    { description: 'Explores complex emotional dynamics.' },
+    { description: 'Minimalist and deeply human narrative.' },
+  ]
+},
+{
+  id: 'books',
+  name: 'The Power of Now – Eckhart Tolle',
+  price: '15.75',
+  rating: 4.5,
+  photos: {
+    img1: book13
+  },
+  about: [
+    { description: 'A guide to spiritual awakening and mindfulness.' },
+    { description: 'Encourages living fully in the present moment.' },
+    { description: 'Blends philosophy with practical advice.' },
+  ]
+},
+{
+  id: 'books',
+  name: 'The Road – Cormac McCarthy',
+  price: '13.99',
+  rating: 4,
+  photos: {
+    img1: book14
+  },
+  about: [
+    { description: 'A haunting post-apocalyptic survival story.' },
+    { description: 'Focuses on the bond between father and son.' },
+    { description: 'Sparse yet emotionally powerful prose.' },
+  ]
+},
+{
+  id: 'books',
+  name: 'Big Little Lies – Liane Moriarty',
+  price: '15.20',
+  rating: 4.5,
+  photos: {
+    img1: book15
+  },
+  about: [
+    { description: 'A suspenseful novel about secrets and relationships.' },
+    { description: 'Sharp social commentary with dark humor.' },
+    { description: 'Builds toward a gripping mystery.' },
+  ]
+},
+{
+  id: 'books',
+  name: 'Man’s Search for Meaning – Viktor E. Frankl',
+  price: '12.99',
+  rating: 4.5,
+  photos: {
+    img1: book16
+  },
+  about: [
+    { description: 'A memoir and psychological exploration of purpose.' },
+    { description: 'Based on experiences in Nazi concentration camps.' },
+    { description: 'Explores resilience and finding meaning in suffering.' },
+  ]
+},
+{
+  id: 'books',
+  name: 'The Perks of Being a Wallflower – Stephen Chbosky',
+  price: '13.99',
+  rating: 4.4,
+  photos: {
+    img1: book17
+  },
+  about: [
+    { description: 'A coming-of-age novel about adolescence and isolation.' },
+    { description: 'Told through letters written by a thoughtful teenage boy.' },
+    { description: 'Explores friendship, identity, and mental health.' }
+  ]
+},
+{
+  id: 'books',
+  name: 'The Book Thief – Markus Zusak',
+  price: '16.99',
+  rating: 4.5,
+  photos: {
+    img1: book18
+  },
+  about: [
+    { description: 'A historical novel set in Nazi Germany.' },
+    { description: 'Narrated uniquely by Death.' },
+    { description: 'Explores the power of words and compassion.' },
+  ]
+},
+{
+  id: 'books',
+  name: 'Quiet: The Power of Introverts – Susan Cain',
+  price: '18.25',
+  rating: 4,
+  photos: {
+    img1: book19
+  },
+  about: [
+    { description: 'Explores the strengths of introverted personalities.' },
+    { description: 'Backed by research and real-life examples.' },
+    { description: 'Challenges extrovert-focused culture.' },
+  ]
+},
+{
+  id: 'books',
+  name: 'Life of Pi – Yann Martel',
+  price: '15.99',
+  rating: 4,
+  photos: {
+    img1: book20
+  },
+  about: [
+    { description: 'A philosophical adventure and survival story.' },
+    { description: 'Explores faith, imagination, and resilience.' },
+    { description: 'Blends realism with allegory.' },
+  ]
 }
+
   ]
 };
 

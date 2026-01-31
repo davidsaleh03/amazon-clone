@@ -2,10 +2,19 @@ import React from "react";
 import "./Product.css";
 import Navbar from "../components/Navbar";
 import ProductsAct from "../components/ProductsAct";
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import Footer from "../components/Footer";
 import PriceRange from "../components/PriceRange";
+import productInventory from "../assets/products.js";
 
 const Product = () => {
+    const {id} = useParams()
+
+    const pageProduct = productInventory.products.filter(
+  (product) => product.id === id
+)
+
+const productId = pageProduct
   return (
     <div className="Product">
       <Navbar />
@@ -30,7 +39,7 @@ const Product = () => {
             </div>
           </div>
           <div className="right__products">
-            <ProductsAct />
+            <ProductsAct productId={productId}/>
           </div>
         </div>
       </div>

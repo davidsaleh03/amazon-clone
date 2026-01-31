@@ -9,12 +9,15 @@ import {
   faMagnifyingGlass,
   faCartShopping
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="Navbar">
         <div className="navbar__contents--top">
+            <Link to={'/'}>
             <img src={logo} alt="" className="logo__figure" />
+            </Link>
             <div className="nav__location">
                 <FontAwesomeIcon icon={faLocationDot} />
                 <div className="nav__location--container">
@@ -57,21 +60,31 @@ const Navbar = () => {
                 <FontAwesomeIcon icon={faBars} />
                 <h1>All</h1>
             </div>
+            <Link to={'/products/amazonbasics'}>
             <div className="nav__btm cursor-yes">
                 <h1>Amazon Basics</h1>
             </div>
+            </Link>
+            <Link to={'/products/homedecor'}>
             <div className="nav__btm cursor-yes">
                 <h1>Home Decor</h1>
             </div>
+            </Link>
+            <Link to={'/products/kitchen'}>
             <div className="nav__btm cursor-yes">
                 <h1>Kitchen</h1>
             </div>
+            </Link>
+            <Link to={'/products/electronics'}>
             <div className="nav__btm cursor-yes">
                 <h1>Electronics</h1>
             </div>
+            </Link>
+            <Link to={'/products/books'}>
             <div className="nav__btm cursor-yes">
                 <h1>Books</h1>
             </div>
+            </Link>
             <div className="nav__btm cursor-no">
                 <h1>Registry</h1>
             </div>

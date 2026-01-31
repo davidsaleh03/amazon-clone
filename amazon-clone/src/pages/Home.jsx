@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 const Home = () => {
   return (
     <div className='home'>
-        <Navbar id='top-area'/>
+        <Navbar />
         <div className="home__top">
         <UpperBanner className='upper-banner'/>
         </div>
