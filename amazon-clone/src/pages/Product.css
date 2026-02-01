@@ -10,17 +10,18 @@
     align-items: center;
 }
 
+
+
 .products__description {
     font-size: 14px;
     color: #b0afaf;
     margin-top: -16px;
-    width: 500px;
 }
 
 .top__bottom {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-around;
 }
 
 .bottom__section {
@@ -43,4 +44,13 @@
 
 .Product {
     background-color: #fff;
+}
+
+@media (max-width: 836px) {
+    .products__description {
+        display: none;
+    }
+    .top__bottom-left {
+    margin-right: 40%;
+}
 }

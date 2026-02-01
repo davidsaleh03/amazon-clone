@@ -23,7 +23,6 @@ const Product = () => {
     <div className="Product">
       <Navbar />
       <div className="product__page--actual">
-        <div className="top__section"></div>
         <div className="bottom__section">
           <div className="top__bottom">
             <div className="top__bottom-left">
@@ -34,9 +33,8 @@ const Product = () => {
               </p>
             </div>
             <div className="top__bottom-right">
-                <PriceRange />
                 <select id="filter" onChange={handleFilterChange}>
-                    <option value="" disabled>Filter</option>
+                    <option value="" disabled selected>Filter</option>
                   <option value="LOW_TO_HIGH" >Price, Low to High</option>
                   <option value="HIGH_TO_LOW" >Price, High to Low</option>
                   <option value="RATING" >Rating</option>
