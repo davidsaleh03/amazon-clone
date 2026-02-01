@@ -2,19 +2,23 @@ import React from "react";
 import "./Product.css";
 import Navbar from "../components/Navbar";
 import ProductsAct from "../components/ProductsAct";
+import { useMemo } from "react"
+import { useState, useEffect } from "react";
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import Footer from "../components/Footer";
 import PriceRange from "../components/PriceRange";
 import productInventory from "../assets/products.js";
 
 const Product = () => {
-    const {id} = useParams()
+    const { id } = useParams(); 
+  const productId = id
 
-    const pageProduct = productInventory.products.filter(
-  (product) => product.id === id
-)
+  const [filter, setFilter] = useState("");
 
-const productId = pageProduct
+  function handleFilterChange(event) {
+    setFilter(event.target.value);
+  }
+
   return (
     <div className="Product">
       <Navbar />
@@ -31,15 +35,16 @@ const productId = pageProduct
             </div>
             <div className="top__bottom-right">
                 <PriceRange />
-                <select id="filter">
-                    <option value disabled selected>Filter</option>
-                    <option value='RATINGHIGH'>Rating, High to Low</option>
-                    <option value='RATINGLOW'>Rating, Low to High</option>
+                <select id="filter" onChange={handleFilterChange}>
+                    <option value="" disabled>Filter</option>
+                  <option value="LOW_TO_HIGH" >Price, Low to High</option>
+                  <option value="HIGH_TO_LOW" >Price, High to Low</option>
+                  <option value="RATING" >Rating</option>
                 </select>
             </div>
           </div>
           <div className="right__products">
-            <ProductsAct productId={productId}/>
+            <ProductsAct productId={productId} filter={filter}/>
           </div>
         </div>
       </div>

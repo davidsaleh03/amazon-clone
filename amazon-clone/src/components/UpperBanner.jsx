@@ -62,7 +62,7 @@ const UpperBanner = () => {
               .map((product, productIndex) => {
                 return (
                   <div className="figure__bestimg" key={productIndex}>
-                    <img src={product.photos.img1} alt="" />
+                    <img src={product.photos[0].img} alt="" />
                   </div>
                 );
               })}
@@ -79,7 +79,7 @@ const UpperBanner = () => {
               .map((product, productIndex) => {
                 return (
                   <div className="figure__bestimg" key={productIndex}>
-                    <img src={product.photos.img1} alt="" />
+                    <img src={product.photos[0].img} alt="" />
                   </div>
                 );
               })}
@@ -96,7 +96,7 @@ const UpperBanner = () => {
               .map((product, productIndex) => {
                 return (
                   <div className="figure__bestimg" key={productIndex}>
-                    <img src={product.photos.img1} alt="" />
+                    <img src={product.photos[0].img} alt="" />
                   </div>
                 );
               })}
@@ -114,7 +114,7 @@ const UpperBanner = () => {
                 .map((product, productIndex) => {
                   return (
                     <div className="figure__bestimg" key={productIndex}>
-                      <img src={product.photos.img1} alt="" />
+                      <img src={product.photos[0].img} alt="" />
                     </div>
                   );
                 })}

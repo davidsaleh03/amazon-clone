@@ -17,7 +17,7 @@ const Home = () => {
             <MiddleBanners id='homedecor' title='Home Decor'/>
             <MiddleBanners id='kitchen' title='Kitchen'/>
             <MiddleBanners id='electronics' title='Electronics'/>
-            <MiddleBanners id='book' title='Books'/>
+            <MiddleBanners id='books' title='Books'/>
         </div>
         <div className="home__middle--low">
             <h1 className="low__title">See Personalized Reccomendations</h1>

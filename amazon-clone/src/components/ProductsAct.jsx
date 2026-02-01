@@ -4,7 +4,7 @@ import productInventory from "../assets/products.js";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons'
 
-const ProductsAct = ({productId}) => {
+const ProductsAct = ({productId, filter}) => {
     function ratingProducts(rating) {
         const stars = [];
         for (let i = 0; i < Math.floor(rating); i++) {
@@ -15,13 +15,24 @@ const ProductsAct = ({productId}) => {
         }
   return stars;
     }
+    let productsToRender = productInventory.products.filter(
+    (product) => product.id === productId
+  );
+
+  if (filter === "LOW_TO_HIGH") {
+    productsToRender.sort((a, b) => a.price - b.price);
+  } else if (filter === "HIGH_TO_LOW") {
+    productsToRender.sort((a, b) => b.price - a.price);
+  } else if (filter === "RATING") {
+    productsToRender.sort((a, b) => b.rating - a.rating);
+  }
   return (
     <>
-      {productId.map((product, index) => {
+      {productsToRender.map((product, index) => {
         return <div className="individual__product" key={index}>
             
           <figure className="product__img">
-            <img src={product.photos.img1} alt="" />
+            <img src={product.photos[0].img} alt="" />
           </figure>
     
           <div className="product__info">

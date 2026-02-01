@@ -17,7 +17,7 @@ const MiddleBanners = ({title, id}) => {
                 .slice(0,10)
                 .map((product) => {
                     return <div className="acutal__product">
-                        <img src={product.photos.img1} alt="" />
+                        <img src={product.photos[0].img} alt="" />
                     </div>
                 })
             }
