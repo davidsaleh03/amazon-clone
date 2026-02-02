@@ -94,8 +94,7 @@ const ProductPage = () => {
          </div>
         )}
         <div className="product__page--top">
-          <FontAwesomeIcon icon={faArrowLeft} />
-          <h1>Go Back</h1>
+          <FontAwesomeIcon className='back-button' icon={faArrowLeft} />
         </div>
         <div className="product__page--details">
           <div className="details__left">
