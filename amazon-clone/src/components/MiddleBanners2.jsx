@@ -2,17 +2,17 @@ import React from 'react'
 import './MiddleBanners.css'
 import productInventory from "../assets/products.js";
 
-const MiddleBanners = ({title, id}) => {
+const MiddleBanners2 = ({name, id}) => {
   return (
-    <div className='MiddleBanners banner-2'>
+    <div className='MiddleBanners'>
         <div className="middle-top__title">
-        <h1 className="banner-title">{title}</h1>
+        <h1 className="banner-title">See More</h1>
         </div>
         <div className="product__display--section">
             {
                 productInventory.products
                 .filter((product)=> 
-                    product.id === id
+                    product.id === id && product.name !== name
                 )
                 .slice(0,10)
                 .map((product) => {
@@ -27,4 +27,4 @@ const MiddleBanners = ({title, id}) => {
   )
 }
 
-export default MiddleBanners
+export default MiddleBanners2

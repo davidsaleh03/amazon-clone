@@ -10,6 +10,10 @@
   border-radius: 4px;
 }
 
+.banner-2 {
+    box-shadow: unset !important;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
