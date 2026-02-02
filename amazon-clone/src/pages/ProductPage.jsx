@@ -99,6 +99,7 @@ const ProductPage = () => {
         </div>
         <div className="product__page--details">
           <div className="details__left">
+            <h1>{product.name}</h1>
             <div className="details__photo--actual">
               <img src={activeImage} />
             </div>
@@ -117,7 +118,7 @@ const ProductPage = () => {
             </div>
           </div>
           <div className="details__middle">
-            <div className="details__middle--top">
+            <div className="details__middle--top top-1">
               <h1 className="details__title">{product.name}</h1>
               <h1 className="details__link">Visit the Amazon Basics Page</h1>
               <div className="details__rating">
@@ -131,6 +132,57 @@ const ProductPage = () => {
                 See all reviews
               </div>
               <h1 className="details__price">${product.price}</h1>
+            </div>
+            <div className="details__middle--top top-2">
+                <div className="ratings-2">
+              <h1 className="details__title">{product.name}</h1>
+              <h1 className="details__link">Visit the Amazon Basics Page</h1>
+              <div className="details__rating">
+                <div className="details__rating--act">{product.rating}</div>
+                <div className="details__rating--stars">
+                  {ratingProducts(product.rating)}
+                </div>
+                <div className="details__rating--num">(10)</div>
+              </div>
+              <div className="details__see--more" onClick={openReviews}>
+                See all reviews
+              </div>
+                </div>
+              <h1 className="details__price">${product.price}</h1>
+            </div>
+            <div className="new__middle">
+            <div className="details__right--container new-2">
+                <div>
+              <h1 className="details__status">Buy New:</h1>
+              <h1 className="right__price">${product.price}</h1>
+              <h1 className="right__shipping">
+                Free 2 Day Delivery On Orders of $35 or more
+              </h1>
+              <div className="right__shipping--location">
+                <FontAwesomeIcon
+                  className="location__icon"
+                  icon={faLocationDot}
+                />
+                <h1>Delivering to New York</h1>
+              </div>
+              <h1 className="details__amount">In Stock</h1>
+              <button className="details__btn">Add to Cart</button>
+                </div>
+                <div>
+              <div className="right__seller">
+                <h1>Shipper/Seller</h1>
+                <h1>Amazon.com</h1>
+              </div>
+              <div className="right__returns">
+                <h1>Returns</h1>
+                <h1>FREE 30 DAY refund</h1>
+              </div>
+              <div className="right__payment">
+                <h1>Payment</h1>
+                <h1>Secure Transaction</h1>
+              </div>
+                </div>
+            </div>
             </div>
             <div className="details__middle--bottom">
               <h1 className="details__bottom--title">About this item</h1>
