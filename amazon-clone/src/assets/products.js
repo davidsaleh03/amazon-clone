@@ -350,6 +350,8 @@ const productInventory = {
       id: 'amazonbasics',
       name: 'Amazon Basics AAA Alkaline High-Performance Batteries (36-Pack)',
       price: '13.70',
+      page: 'Amazon Basics',
+      uid: '0001',
       rating: 5,
       photos: [
         {img: basicsBattery1},
@@ -440,6 +442,8 @@ const productInventory = {
       id: 'amazonbasics',
       name: 'Amazon Basics AA Alkaline High-Performance Batteries (48-Pack)',
       price: '18.45',
+      page: 'Amazon Basics',
+      uid: '0002',
       rating: 4.5,
       photos: [
         {img: basics2Battery1},
@@ -530,6 +534,8 @@ const productInventory = {
       id: 'amazonbasics',
       name: 'Amazon Basics Everyday Paper Plates, 8.62 Inch, Disposable (100 Count)',
       price: '5.99',
+      page: 'Amazon Basics',
+      uid: '0003',
       rating: 3.5,
       photos: [
         {img: plates1},
@@ -620,6 +626,8 @@ const productInventory = {
       id: 'amazonbasics',
       name: 'Amazon Basics High-Speed HDMI Cable (6 Feet)',
       price: '8.99',
+      page: 'Amazon Basics',
+      uid: '0004',
       rating: 5,
       photos: [
         {img: cable1},
@@ -701,6 +709,8 @@ const productInventory = {
       name: 'Amazon Basics Adjustable Laptop Stand',
       price: '33.50',
       rating: 4,
+      page: 'Amazon Basics',
+      uid: '0005',
       photos: [
         {img: stand1},
         {img: stand2},
@@ -747,6 +757,8 @@ const productInventory = {
       name: 'Amazon Basics USB-C to USB-A Cable (3 Feet)',
       price: '7.25',
       rating: 3,
+      page: 'Amazon Basics',
+      uid: '0006',
       photos: [
         {img: charge1},
         {img: charge2},
@@ -788,6 +800,8 @@ const productInventory = {
       id: 'amazonbasics',
       name: 'Amazon Basics Mid-Back Mesh Office Chair',
       price: '89.99',
+      page: 'Amazon Basics',
+      uid: '0007',
       rating: 5,
       photos: [
         {img: chair1},
@@ -838,6 +852,8 @@ const productInventory = {
       id: 'amazonbasics',
       name: 'Amazon Basics Slim Carry On Travel Backpack',
       price: '45.00',
+      page: 'Amazon Basics',
+      uid: '0008',
       rating: 4,
       photos: [
         {img: pack1},
@@ -885,6 +901,8 @@ const productInventory = {
       name: 'Amazon Basics 2-Ply Paper Towels (6 Rolls)',
       price: '11.80',
       rating: 4.5,
+      page: 'Amazon Basics',
+      uid: '0009',
       photos: [
         {img: towel1},
         {img: towel2},
@@ -934,6 +952,8 @@ const productInventory = {
       id: 'amazonbasics',
       name: 'Amazon Basics Wired Keyboard and Mouse Combo',
       price: '19.95',
+      page: 'Amazon Basics',
+      uid: '0010',
       rating: 5,
       photos: [
         {img: keyboard1},
@@ -981,6 +1001,8 @@ const productInventory = {
   id: 'amazonbasics',
   name: 'Amazon Basics Microfiber Cleaning Cloths (24-Pack)',
   price: '12.99',
+  page: 'Amazon Basics',
+  uid: '0011',
   rating: 4.5,
   photos: [
     {img: cloth1},
@@ -1012,6 +1034,8 @@ const productInventory = {
   id: 'amazonbasics',
   name: 'Amazon Basics Stainless Steel Travel Mug (16 oz)',
   price: '14.50',
+  page: 'Amazon Basics',
+  uid: '0012',
   rating: 4,
   photos: [
     {img: mugbasic1},
@@ -1043,6 +1067,8 @@ const productInventory = {
   id: 'amazonbasics',
   name: 'Amazon Basics Digital Kitchen Scale',
   price: '16.99',
+  page: 'Amazon Basics',
+  uid: '0013',
   rating: 4.5,
   photos: [
     {img: scalebasic1},
@@ -1074,6 +1100,8 @@ const productInventory = {
   id: 'amazonbasics',
   name: 'Amazon Basics Memory Foam Bed Pillow',
   price: '39.99',
+  page: 'Amazon Basics',
+  uid: '0014',
   rating: 4,
   photos: [
     {img: pillowbasic1},
@@ -1105,6 +1133,8 @@ const productInventory = {
   id: 'amazonbasics',
   name: 'Amazon Basics 5-Shelf Adjustable Storage Shelving Unit',
   price: '72.00',
+  page: 'Amazon Basics',
+  uid: '0015',
   rating: 4.5,
   photos: [
     {img: shelfbasic1},
@@ -1136,6 +1166,8 @@ const productInventory = {
   id: 'amazonbasics',
   name: 'Amazon Basics Non-Stick Cookware Set (8-Piece)',
   price: '64.95',
+  page: 'Amazon Basics',
+  uid: '0016',
   rating: 4,
   photos: [
     {img: cook1},
@@ -1168,6 +1200,8 @@ const productInventory = {
   name: 'Amazon Basics Adjustable Dumbbell Set (38 lbs)',
   price: '59.99',
   rating: 4.5,
+  page: 'Amazon Basics',
+  uid: '0017',
   photos: [
     {img: dumb1},
     {img: dumb2},
@@ -1198,6 +1232,8 @@ const productInventory = {
   id: 'amazonbasics',
   name: 'Amazon Basics Electric Kettle (1.7L)',
   price: '29.95',
+  page: 'Amazon Basics',
+  uid: '0018',
   rating: 4,
   photos: [
     {img: kettle1},
@@ -1229,6 +1265,8 @@ const productInventory = {
   id: 'amazonbasics',
   name: 'Amazon Basics Faux Leather Storage Ottoman',
   price: '49.99',
+  page: 'Amazon Basics',
+  uid: '0019',
   rating: 4.5,
   photos: [
     {img: ott1},
@@ -1260,6 +1298,8 @@ const productInventory = {
   id: 'amazonbasics',
   name: 'Amazon Basics 3-Outlet Power Strip with Surge Protection',
   price: '14.25',
+  page: 'Amazon Basics',
+  uid: '0020',
   rating: 4,
   photos: [
     {img: strip1},
@@ -1291,6 +1331,8 @@ const productInventory = {
   id: 'homedecor',
   name: 'Modern Ceramic Table Lamp with Fabric Shade',
   price: '39.99',
+  page: 'Home Decor',
+  uid: '0021',
   rating: 4,
   photos: [
     {img: lamp1},
@@ -1323,6 +1365,8 @@ const productInventory = {
   id: 'homedecor',
   name: 'Decorative Wall Mirror with Gold Metal Frame',
   price: '54.50',
+  page: 'Home Decor',
+  uid: '0022',
   rating: 5,
   photos: [
     {img: mirror1},
@@ -1354,6 +1398,8 @@ const productInventory = {
   id: 'homedecor',
   name: 'Set of 3 Floating Wall Shelves – Rustic Wood',
   price: '32.99',
+  page: 'Home Decor',
+  uid: '0023',
   rating: 3.5,
   photos: [
     {img: shelf1},
@@ -1385,6 +1431,8 @@ const productInventory = {
   id: 'homedecor',
   name: 'Luxury Decorative Throw Pillow Covers (Set of 2)',
   price: '18.75',
+  page: 'Home Decor',
+  uid: '0024',
   rating: 4.5,
   photos: [
     {img: pillow1},
@@ -1416,6 +1464,8 @@ const productInventory = {
   id: 'homedecor',
   name: 'Artificial Indoor Potted Plant – Faux Fiddle Leaf Fig',
   price: '27.90',
+  page: 'Home Decor',
+  uid: '0025',
   rating: 5,
   photos: [
     {img: plant1},
@@ -1447,6 +1497,8 @@ const productInventory = {
   id: 'homedecor',
   name: 'Decorative LED String Lights – Warm White (20 ft)',
   price: '14.99',
+  page: 'Home Decor',
+  uid: '0026',
   rating: 3,
   photos: [
     {img: lights1},
@@ -1478,6 +1530,8 @@ const productInventory = {
   id: 'homedecor',
   name: 'Decorative Area Rug – Boho Pattern (5x7 ft)',
   price: '64.99',
+  page: 'Home Decor',
+  uid: '0027',
   rating: 4,
   photos: [
     {img: rug1},
@@ -1510,6 +1564,8 @@ const productInventory = {
   name: 'Decorative Scented Candles – Set of 3',
   price: '22.50',
   rating: 5,
+  page: 'Home Decor',
+  uid: '0028',
   photos: [
     {img: candles1},
     {img: candles2},
@@ -1541,6 +1597,8 @@ const productInventory = {
   name: 'Wooden Wall Clock – Silent Non-Ticking',
   price: '29.99',
   rating: 4.5,
+  page: 'Home Decor',
+  uid: '0029',
   photos: [
     {img: clock1},
     {img: clock2},
@@ -1572,6 +1630,8 @@ const productInventory = {
   name: 'Decorative Storage Basket – Woven Cotton Rope',
   price: '24.95',
   rating: 5,
+  page: 'Home Decor',
+  uid: '0030',
   photos: [
     {img: basket1},
     {img: basket2},
@@ -1604,6 +1664,8 @@ const productInventory = {
   name: 'Minimalist Metal Floor Lamp with Linen Shade',
   price: '69.99',
   rating: 4.5,
+  page: 'Home Decor',
+  uid: '0031',
   photos: [
     {img: floorlamp1},
     {img: floorlamp2},
@@ -1634,6 +1696,8 @@ const productInventory = {
   id: 'homedecor',
   name: 'Decorative Accent Wall Art – Abstract Canvas Print',
   price: '41.25',
+  page: 'Home Decor',
+  uid: '0032',
   rating: 4,
   photos: [
     {img: art1},
@@ -1666,6 +1730,8 @@ const productInventory = {
   name: 'Decorative Ceramic Vase – Matte Neutral Finish',
   price: '26.80',
   rating: 3.5,
+  page: 'Home Decor',
+  uid: '0033',
   photos: [
     {img: vase1},
     {img: vase2},
@@ -1697,6 +1763,8 @@ const productInventory = {
   name: 'Soft Knit Decorative Throw Blanket',
   price: '34.99',
   rating: 4.5,
+  page: 'Home Decor',
+  uid: '0034',
   photos: [
     {img: throw1},
     {img: throw2},
@@ -1727,6 +1795,8 @@ const productInventory = {
   id: 'homedecor',
   name: 'Decorative Tabletop Tray – Faux Marble Finish',
   price: '21.50',
+  page: 'Home Decor',
+  uid: '0035',
   rating: 4,
   photos: [
     {img: tray1},
@@ -1759,6 +1829,8 @@ const productInventory = {
   name: 'Decorative Curtain Panels – Sheer White (Set of 2)',
   price: '28.99',
   rating: 3.5,
+  page: 'Home Decor',
+  uid: '0036',
   photos: [
     {img: curtain1},
     {img: curtain2},
@@ -1789,6 +1861,8 @@ const productInventory = {
   id: 'homedecor',
   name: 'Decorative Bookends – Modern Geometric Design',
   price: '19.95',
+  page: 'Home Decor',
+  uid: '0037',
   rating: 4,
   photos: [
     {img: bookend1},
@@ -1821,6 +1895,8 @@ const productInventory = {
   name: 'Decorative Indoor Wall Planter – Metal Frame',
   price: '37.40',
   rating: 4.5,
+  page: 'Home Decor',
+  uid: '0038',
   photos: [
     {img: planter1},
     {img: planter2},
@@ -1852,6 +1928,8 @@ const productInventory = {
   name: 'Decorative Bathroom Counter Organizer',
   price: '23.99',
   rating: 3,
+  page: 'Home Decor',
+  uid: '0039',
   photos: [
     {img: organizer1},
     {img: organizer2},
@@ -1883,6 +1961,8 @@ const productInventory = {
   name: 'Decorative Entryway Doormat – Indoor Use',
   price: '17.99',
   rating: 4,
+  page: 'Home Decor',
+  uid: '0040',
   photos: [
     {img: mat1},
     {img: mat2},
@@ -1913,6 +1993,8 @@ const productInventory = {
   id: 'kitchen',
   name: 'Stainless Steel Knife Set with Block (8-Piece)',
   price: '49.99',
+  page: 'Kitchen',
+  uid: '0041',
   rating: 5,
   photos: [
     {img: knifeSet1},
@@ -1945,6 +2027,8 @@ const productInventory = {
   name: 'Non-Stick Cookware Set (10-Piece)',
   price: '79.99',
   rating: 4.5,
+  page: 'Kitchen',
+  uid: '0042',
   photos: [
     {img: cookware1},
     {img: cookware2},
@@ -1976,6 +2060,8 @@ const productInventory = {
   name: 'Digital Kitchen Scale with LCD',
   price: '19.99',
   rating: 3.5,
+  page: 'Kitchen',
+  uid: '0043',
   photos: [
     {img: scale1},
     {img: scale2},
@@ -2007,6 +2093,8 @@ const productInventory = {
   name: 'Stovetop Espresso Maker – 6 Cup',
   price: '29.99',
   rating: 4,
+  page: 'Kitchen',
+  uid: '0044',
   photos: [
     {img: espresso1},
     {img: espresso2},
@@ -2038,6 +2126,8 @@ const productInventory = {
   name: 'Silicone Cooking Utensil Set (7-Piece)',
   price: '24.99',
   rating: 5,
+  page: 'Kitchen',
+  uid: '0045',
   photos: [
     {img: utensils1},
     {img: utensils2},
@@ -2069,6 +2159,8 @@ const productInventory = {
   name: 'Ceramic Mixing Bowls (Set of 3)',
   price: '34.50',
   rating: 4.5,
+  page: 'Kitchen',
+  uid: '0046',
   photos: [
     {img: bowls1},
     {img: bowls2},
@@ -2100,6 +2192,8 @@ const productInventory = {
   name: 'Stainless Steel Dish Drying Rack',
   price: '27.99',
   rating: 5,
+  page: 'Kitchen',
+  uid: '0047',
   photos: [
     {img: rack1},
     {img: rack2},
@@ -2131,6 +2225,8 @@ const productInventory = {
   name: 'Glass Food Storage Containers (Set of 5)',
   price: '39.99',
   rating: 4,
+  page: 'Kitchen',
+  uid: '0048',
   photos: [
     {img: storage1},
     {img: storage2},
@@ -2162,6 +2258,8 @@ const productInventory = {
   name: 'Electric Hand Mixer with Accessories',
   price: '29.90',
   rating: 5,
+  page: 'Kitchen',
+  uid: '0049',
   photos: [
     {img: mixer1},
     {img: mixer2},
@@ -2193,6 +2291,8 @@ const productInventory = {
   name: 'Double Wall Insulated Stainless Steel Travel Mug',
   price: '19.75',
   rating: 4.5,
+  page: 'Kitchen',
+  uid: '0050',
   photos: [
     {img: mug1},
     {img: mug2},
@@ -2225,6 +2325,8 @@ const productInventory = {
   name: 'Bamboo Cutting Board Set (3-Piece)',
   price: '29.99',
   rating: 4.5,
+  page: 'Kitchen',
+  uid: '0051',
   photos: [
     {img: board1},
     {img: board2},
@@ -2256,6 +2358,8 @@ const productInventory = {
   name: 'Electric Water Kettle (1.7L)',
   price: '34.99',
   rating: 4,
+  page: 'Kitchen',
+  uid: '0052',
   photos: [
     {img: kitchenkettle1},
     {img: kitchenkettle2},
@@ -2287,6 +2391,8 @@ const productInventory = {
   name: 'Manual Citrus Juicer',
   price: '17.50',
   rating: 3.5,
+  page: 'Kitchen',
+  uid: '0053',
   photos: [
     {img: juicer1},
     {img: juicer2},
@@ -2318,6 +2424,8 @@ const productInventory = {
   name: 'Stainless Steel Measuring Cups & Spoons Set',
   price: '21.99',
   rating: 4.5,
+  page: 'Kitchen',
+  uid: '0054',
   photos: [
     {img: measure1},
     {img: measure2},
@@ -2349,6 +2457,8 @@ const productInventory = {
   name: 'Countertop Spice Rack Organizer',
   price: '26.75',
   rating: 4,
+  page: 'Kitchen',
+  uid: '0055',
   photos: [
     {img: spice1},
     {img: spice2},
@@ -2380,6 +2490,8 @@ const productInventory = {
   name: 'Oil Dispenser Bottle with Pour Spout',
   price: '14.99',
   rating: 3,
+  page: 'Kitchen',
+  uid: '0056',
   photos: [
     {img: oil1},
     {img: oil2},
@@ -2411,6 +2523,8 @@ const productInventory = {
   name: 'Non-Slip Kitchen Mat',
   price: '24.50',
   rating: 4.5,
+  page: 'Kitchen',
+  uid: '0057',
   photos: [
     {img: nonmat1},
     {img: nonmat2},
@@ -2442,6 +2556,8 @@ const productInventory = {
   name: 'Immersion Hand Blender',
   price: '44.99',
   rating: 4,
+  page: 'Kitchen',
+  uid: '0058',
   photos: [
     {img: blender1},
     {img: blender2},
@@ -2473,6 +2589,8 @@ const productInventory = {
   name: 'Microwave Food Cover',
   price: '12.99',
   rating: 3.5,
+  page: 'Kitchen',
+  uid: '0059',
   photos: [
     {img: cover1},
     {img: cover2},
@@ -2504,6 +2622,8 @@ const productInventory = {
   name: 'Under-Cabinet Paper Towel Holder',
   price: '18.25',
   rating: 4,
+  page: 'Kitchen',
+  uid: '0060',
   photos: [
     {img: holder1},
     {img: holder2},
@@ -2535,6 +2655,8 @@ const productInventory = {
   name: 'Wireless Bluetooth Over-Ear Headphones',
   price: '59.99',
   rating: 4,
+  page: 'Electronics',
+  uid: '0061',
   photos: [
     {img: headphones1},
     {img: headphones2},
@@ -2566,6 +2688,8 @@ const productInventory = {
   name: 'Portable Bluetooth Speaker (Water-Resistant)',
   price: '39.99',
   rating: 5,
+  page: 'Electronics',
+  uid: '0062',
   photos: [
     {img: speaker1},
     {img: speaker2},
@@ -2597,6 +2721,8 @@ const productInventory = {
   name: 'Smart Wi-Fi Plug (2-Pack)',
   price: '24.95',
   rating: 3.5,
+  page: 'Electronics',
+  uid: '0063',
   photos: [
     {img: plug1},
     {img: plug2},
@@ -2628,6 +2754,8 @@ const productInventory = {
   name: '1080p Webcam with Built-In Microphone',
   price: '49.99',
   rating: 4.5,
+  page: 'Electronics',
+  uid: '0064',
   photos: [
     {img: webcam1},
     {img: webcam2},
@@ -2659,6 +2787,8 @@ const productInventory = {
   name: 'USB-C Fast Charging Wall Adapter',
   price: '14.99',
   rating: 5,
+  page: 'Electronics',
+  uid: '0065',
   photos: [
     {img: charger1},
     {img: charger2},
@@ -2690,6 +2820,8 @@ const productInventory = {
   name: 'Bluetooth Wireless Earbuds with Charging Case',
   price: '34.50',
   rating: 3.5,
+  page: 'Electronics',
+  uid: '0066',
   photos: [
     {img: earbuds1},
     {img: earbuds2},
@@ -2721,6 +2853,8 @@ const productInventory = {
   name: 'Multifunction Digital Alarm Clock',
   price: '22.99',
   rating: 4.5,
+  page: 'Electronics',
+  uid: '0067',
   photos: [
     {img: clockElec1},
     {img: clockElec2},
@@ -2752,6 +2886,8 @@ const productInventory = {
   name: 'Action Camera 4K Ultra HD',
   price: '79.99',
   rating: 5,
+  page: 'Electronics',
+  uid: '0068',
   photos: [
     {img: actionCam1},
     {img: actionCam2},
@@ -2783,6 +2919,8 @@ const productInventory = {
   name: 'Wireless Keyboard and Mouse Combo',
   price: '32.99',
   rating: 4.5,
+  page: 'Electronics',
+  uid: '0069',
   photos: [
     {img: keyboardElec1},
     {img: keyboardElec2},
@@ -2814,6 +2952,8 @@ const productInventory = {
   name: 'Portable Power Bank 10000mAh',
   price: '29.50',
   rating: 5,
+  page: 'Electronics',
+  uid: '0070',
   photos: [
     {img: powerBank1},
     {img: powerBank2},
@@ -2846,6 +2986,8 @@ const productInventory = {
   name: 'Noise-Isolating Wired In-Ear Headphones',
   price: '18.99',
   rating: 4.5,
+  page: 'Electronics',
+  uid: '0071',
   photos: [
     {img: inear1},
     {img: inear2},
@@ -2877,6 +3019,8 @@ const productInventory = {
   name: 'HDMI to HDMI Cable (6 ft)',
   price: '12.49',
   rating: 4,
+  page: 'Electronics',
+  uid: '0072',
   photos: [
     {img: hdmi1},
     {img: hdmi2},
@@ -2908,6 +3052,8 @@ const productInventory = {
   name: 'USB Desk Fan with Adjustable Tilt',
   price: '21.75',
   rating: 3.5,
+  page: 'Electronics',
+  uid: '0073',
   photos: [
     {img: deskfan1},
     {img: deskfan2},
@@ -2939,6 +3085,8 @@ const productInventory = {
   name: 'Car Phone Mount with Dashboard Clamp',
   price: '19.99',
   rating: 4.5,
+  page: 'Electronics',
+  uid: '0074',
   photos: [
     {img: mount1},
     {img: mount2},
@@ -2970,6 +3118,8 @@ const productInventory = {
   name: 'Bluetooth FM Transmitter for Car',
   price: '27.50',
   rating: 4,
+  page: 'Electronics',
+  uid: '0075',
   photos: [
     {img: transmitter1},
     {img: transmitter2},
@@ -3001,6 +3151,8 @@ const productInventory = {
   name: 'Adjustable Laptop Cooling Pad',
   price: '36.99',
   rating: 4.5,
+  page: 'Electronics',
+  uid: '0076',
   photos: [
     {img: cooling1},
     {img: cooling2},
@@ -3032,6 +3184,8 @@ const productInventory = {
   name: 'Smart LED Light Bulb (Color Changing)',
   price: '16.95',
   rating: 3,
+  page: 'Electronics',
+  uid: '0077',
   photos: [
     {img: smartbulb1},
     {img: smartbulb2},
@@ -3063,6 +3217,8 @@ const productInventory = {
   name: 'External USB DVD Drive',
   price: '33.25',
   rating: 4,
+  page: 'Electronics',
+  uid: '0078',
   photos: [
     {img: dvd1},
     {img: dvd2},
@@ -3094,6 +3250,8 @@ const productInventory = {
   name: 'Wireless Charging Pad (Qi Compatible)',
   price: '22.49',
   rating: 4.5,
+  page: 'Electronics',
+  uid: '0079',
   photos: [
     {img: wirelessCharge1},
     {img: wirelessCharge2},
@@ -3125,6 +3283,8 @@ const productInventory = {
   name: 'USB-C Hub Multiport Adapter',
   price: '45.00',
   rating: 4,
+  page: 'Electronics',
+  uid: '0080',
   photos: [
     {img: hub1},
     {img: hub2},
@@ -3156,6 +3316,8 @@ const productInventory = {
   name: 'The Midnight Library – Matt Haig',
   price: '15.99',
   rating: 3.5,
+  page: 'Books',
+  uid: '0081',
   photos: [
     {img: book1}
   ],
@@ -3183,6 +3345,8 @@ const productInventory = {
   name: 'Atomic Habits – James Clear',
   price: '18.50',
   rating: 5,
+  page: 'Books',
+  uid: '0082',
   photos: [
     {img: book2}
   ],
@@ -3210,6 +3374,8 @@ const productInventory = {
   name: 'Where the Crawdads Sing – Delia Owens',
   price: '14.99',
   rating: 4,
+  page: 'Books',
+  uid: '0083',
   photos: [
     {img: book3}
   ],
@@ -3236,6 +3402,8 @@ const productInventory = {
   name: 'Educated – Tara Westover',
   price: '17.99',
   rating: 4.5,
+  page: 'Books',
+  uid: '0084',
   photos: [
     {img: book4}
   ],
@@ -3262,6 +3430,8 @@ const productInventory = {
   name: 'The Four Agreements – Don Miguel Ruiz',
   price: '12.95',
   rating: 5,
+  page: 'Books',
+  uid: '0085',
   photos: [
     {img: book5}
   ],
@@ -3288,6 +3458,8 @@ const productInventory = {
   name: 'Dune – Frank Herbert',
   price: '16.50',
   rating: 3.5,
+  page: 'Books',
+  uid: '0086',
   photos: [
     {img: book6}
   ],
@@ -3314,6 +3486,8 @@ const productInventory = {
   name: 'The Alchemist – Paulo Coelho',
   price: '13.99',
   rating: 4.5,
+  page: 'Books',
+  uid: '0087',
   photos: [
     {img: book7}
   ],
@@ -3340,6 +3514,8 @@ const productInventory = {
   name: 'Sapiens: A Brief History of Humankind – Yuval Noah Harari',
   price: '19.99',
   rating: 5,
+  page: 'Books',
+  uid: '0088',
   photos: [
     {img: book8}
   ],
@@ -3366,6 +3542,8 @@ const productInventory = {
   name: 'The Subtle Art of Not Giving a F*ck – Mark Manson',
   price: '17.50',
   rating: 4,
+  page: 'Books',
+  uid: '0089',
   photos: [
     {img: book9}
   ],
@@ -3391,6 +3569,8 @@ const productInventory = {
   id: 'books',
   name: 'Think and Grow Rich – Napoleon Hill',
   price: '11.99',
+  page: 'Books',
+  uid: '0090',
   rating: 5,
   photos: [
     {img: book10}
@@ -3418,6 +3598,8 @@ const productInventory = {
   name: 'The Night Circus – Erin Morgenstern',
   price: '16.25',
   rating: 4.5,
+  page: 'Books',
+  uid: '0091',
   photos: [
     {img: book11}
   ],
@@ -3443,6 +3625,8 @@ const productInventory = {
   id: 'books',
   name: 'Normal People – Sally Rooney',
   price: '14.50',
+  page: 'Books',
+  uid: '0092',
   rating: 4,
   photos: [
     {img: book12}
@@ -3469,6 +3653,8 @@ const productInventory = {
   id: 'books',
   name: 'The Power of Now – Eckhart Tolle',
   price: '15.75',
+  page: 'Books',
+  uid: '0093',
   rating: 4.5,
   photos: [
     {img: book13}
@@ -3496,6 +3682,8 @@ const productInventory = {
   name: 'The Road – Cormac McCarthy',
   price: '13.99',
   rating: 4,
+  page: 'Books',
+  uid: '0094',
   photos: [
     {img: book14}
   ],
@@ -3522,6 +3710,8 @@ const productInventory = {
   name: 'Big Little Lies – Liane Moriarty',
   price: '15.20',
   rating: 4.5,
+  page: 'Books',
+  uid: '0095',
   photos: [
     {img: book15}
   ],
@@ -3548,6 +3738,8 @@ const productInventory = {
   name: 'Man’s Search for Meaning – Viktor E. Frankl',
   price: '12.99',
   rating: 4.5,
+  page: 'Books',
+  uid: '0096',
   photos: [
     {img: book16}
   ],
@@ -3574,6 +3766,8 @@ const productInventory = {
   name: 'The Perks of Being a Wallflower – Stephen Chbosky',
   price: '13.99',
   rating: 4.4,
+  page: 'Books',
+  uid: '0097',
   photos: [
     {img: book17}
   ],
@@ -3600,6 +3794,8 @@ const productInventory = {
   name: 'The Book Thief – Markus Zusak',
   price: '16.99',
   rating: 4.5,
+  page: 'Books',
+  uid: '0098',
   photos: [
     {img: book18}
   ],
@@ -3626,6 +3822,8 @@ const productInventory = {
   name: 'Quiet: The Power of Introverts – Susan Cain',
   price: '18.25',
   rating: 4,
+  page: 'Books',
+  uid: '0099',
   photos: [
     {img: book19}
   ],
@@ -3652,6 +3850,8 @@ const productInventory = {
   name: 'Life of Pi – Yann Martel',
   price: '15.99',
   rating: 4,
+  page: 'Books',
+  uid: '0100',
   photos: [
     {img: book20}
   ],

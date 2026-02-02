@@ -1,6 +1,7 @@
 import React from "react";
 import "./ProductPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useParams } from 'react-router-dom';
 import { useState, useEffect} from "react";
 import {
   faArrowLeft,
@@ -14,7 +15,8 @@ import productInventory from "../assets/products.js";
 import MiddleBanners2 from "../components/MiddleBanners2.jsx";
 
 const ProductPage = () => {
-  const product = productInventory.products[0];
+    const { uid } = useParams(); 
+  const product = productInventory.products.find(p => p.uid === uid);
   function ratingProducts(rating) {
     const stars = [];
     for (let i = 0; i < Math.floor(rating); i++) {
@@ -28,7 +30,14 @@ const ProductPage = () => {
     return stars;
   }
 
-  const [activeImage, setActiveImage] = useState(product.photos[0].img);
+  const [activeImage, setActiveImage] = useState('');
+
+  useEffect(() => {
+    if (product) {
+      setActiveImage(product.photos[0].img);
+    }
+  }, [product])
+
   const [modalOpen, isModalOpen] = useState(false);
 
   function openReviews() {
@@ -45,6 +54,9 @@ const ProductPage = () => {
       document.body.style.overflow = "auto";
     };
   }, [modalOpen]);
+
+  console.log("URL uid:", uid);
+console.log("Inventory uids:", productInventory.products.map(p => p.uid))
 
   return (
     <div className="productPage">
@@ -103,7 +115,7 @@ const ProductPage = () => {
               <img src={activeImage} />
             </div>
             <div className="details__photos--array">
-              {productInventory.products[0].photos.map((photos, index) => {
+              {product.photos.map((photos, index) => {
                 return (
                   <div
                     className={`photos__array--actual ${activeImage === photos.img ? "active" : ""}`}
@@ -186,7 +198,7 @@ const ProductPage = () => {
             <div className="details__middle--bottom">
               <h1 className="details__bottom--title">About this item</h1>
               <div className="description__list">
-                {productInventory.products[0].about.map((product, index) => {
+                {product.about.map((product, index) => {
                   return (
                     <div className="description__list--item" key={index}>
                       {product.description}

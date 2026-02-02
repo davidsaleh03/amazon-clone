@@ -1,6 +1,7 @@
 import React from "react";
 import "./ProductsAct.css";
 import productInventory from "../assets/products.js";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons'
 
@@ -29,7 +30,8 @@ const ProductsAct = ({productId, filter}) => {
   return (
     <>
       {productsToRender.map((product, index) => {
-        return <div className="individual__product" key={index}>
+        return <Link to={`/product-page/${product.uid}`}>
+        <div className="individual__product" key={index}>
             
           <figure className="product__img">
             <img src={product.photos[0].img} alt="" />
@@ -51,6 +53,7 @@ const ProductsAct = ({productId, filter}) => {
           </div>
           <button className="add__cart">Add to Cart</button>
         </div>;
+        </Link>
       })}
     </>
   );
