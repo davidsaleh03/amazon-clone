@@ -7,6 +7,7 @@ import banner2 from "../assets/banner-2.jpg";
 import banner3 from "../assets/banner-3.jpg";
 import banner4 from "../assets/banner-4.jpg";
 import banner5 from "../assets/banner-5.jpg";
+import { Link } from "react-router-dom";
 import "./UpperBanner.css";
 import productInventory from "../assets/products.js";
 
@@ -62,7 +63,9 @@ const UpperBanner = () => {
               .map((product, productIndex) => {
                 return (
                   <div className="figure__bestimg" key={productIndex}>
+                    <Link to={`/product-page/${product.uid}`}>
                     <img src={product.photos[0].img} alt="" />
+                    </Link>
                   </div>
                 );
               })}
@@ -79,8 +82,11 @@ const UpperBanner = () => {
               .map((product, productIndex) => {
                 return (
                   <div className="figure__bestimg" key={productIndex}>
+                    <Link to={`/product-page/${product.uid}`}>
                     <img src={product.photos[0].img} alt="" />
+                    </Link>
                   </div>
+                
                 );
               })}
           </div>
@@ -96,7 +102,9 @@ const UpperBanner = () => {
               .map((product, productIndex) => {
                 return (
                   <div className="figure__bestimg" key={productIndex}>
+                    <Link to={`/product-page/${product.uid}`}>
                     <img src={product.photos[0].img} alt="" />
+                    </Link>
                   </div>
                 );
               })}
@@ -114,7 +122,9 @@ const UpperBanner = () => {
                 .map((product, productIndex) => {
                   return (
                     <div className="figure__bestimg" key={productIndex}>
+                      <Link to={`/product-page/${product.uid}`}>
                       <img src={product.photos[0].img} alt="" />
+                      </Link>
                     </div>
                   );
                 })}

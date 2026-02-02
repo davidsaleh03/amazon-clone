@@ -1,6 +1,7 @@
 import React from 'react'
 import './MiddleBanners.css'
 import productInventory from "../assets/products.js";
+import { Link } from "react-router-dom";
 
 const MiddleBanners2 = ({name, id}) => {
   return (
@@ -17,7 +18,9 @@ const MiddleBanners2 = ({name, id}) => {
                 .slice(0,10)
                 .map((product) => {
                     return <div className="acutal__product">
+                        <Link to={`/product-page/${product.uid}`}>
                         <img src={product.photos[0].img} alt="" />
+                        </Link>
                     </div>
                 })
             }
