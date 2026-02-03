@@ -8,7 +8,6 @@ import Footer from '../components/Footer'
 const Home = () => {
   return (
     <div className='home'>
-        <Navbar />
         <div className="home__top">
         <UpperBanner className='upper-banner'/>
         </div>
@@ -23,7 +22,6 @@ const Home = () => {
             <h1 className="low__title">See Personalized Reccomendations</h1>
             <button className="low__btn">Sign In</button>
         </div>
-        <Footer />
     </div>
   )
 }

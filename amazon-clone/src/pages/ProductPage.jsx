@@ -2,6 +2,7 @@ import React from "react";
 import "./ProductPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useParams } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import { useState, useEffect} from "react";
 import {
   faArrowLeft,
@@ -14,9 +15,18 @@ import Footer from "../components/Footer";
 import productInventory from "../assets/products.js";
 import MiddleBanners2 from "../components/MiddleBanners2.jsx";
 
-const ProductPage = () => {
+const ProductPage = ({addToCart, cart}) => {
     const { uid } = useParams(); 
   const product = productInventory.products.find(p => p.uid === uid);
+
+  function addProductToCart(product) {
+    addToCart(product)
+  }
+
+  function productExistsOnCart() {
+    return cart.find(product => product.uid === uid)
+  }
+
   function ratingProducts(rating) {
     const stars = [];
     for (let i = 0; i < Math.floor(rating); i++) {
@@ -55,12 +65,9 @@ const ProductPage = () => {
     };
   }, [modalOpen]);
 
-  console.log("URL uid:", uid);
-console.log("Inventory uids:", productInventory.products.map(p => p.uid))
 
   return (
     <div className="productPage">
-      <Navbar />
       <div className="product__page--act">
         {modalOpen && (
          <div className="modal__overlay">
@@ -131,7 +138,9 @@ console.log("Inventory uids:", productInventory.products.map(p => p.uid))
           <div className="details__middle">
             <div className="details__middle--top top-1">
               <h1 className="details__title">{product.name}</h1>
-              <h1 className="details__link">Visit the Amazon Basics Page</h1>
+              <Link to={`/products/${product.id}`}>
+              <h1 className="details__link">Visit the {product.page} Page</h1>
+              </Link>
               <div className="details__rating">
                 <div className="details__rating--act">{product.rating}</div>
                 <div className="details__rating--stars">
@@ -177,7 +186,15 @@ console.log("Inventory uids:", productInventory.products.map(p => p.uid))
                 <h1>Delivering to New York</h1>
               </div>
               <h1 className="details__amount">In Stock</h1>
-              <button className="details__btn">Add to Cart</button>
+              {
+                productExistsOnCart() ? (
+                  <Link to='/cart'>
+                    <button className="details__btn">Checkout</button>
+                  </Link>
+                ) : (
+                  <button className="details__btn" onClick={() => addProductToCart(product)} >Add to Cart</button>
+                )
+              }
                 </div>
                 <div>
               <div className="right__seller">
@@ -223,7 +240,15 @@ console.log("Inventory uids:", productInventory.products.map(p => p.uid))
                 <h1>Delivering to New York</h1>
               </div>
               <h1 className="details__amount">In Stock</h1>
-              <button className="details__btn">Add to Cart</button>
+              {
+                productExistsOnCart() ? (
+                  <Link to='/cart'>
+                    <button className="details__btn">Checkout</button>
+                  </Link>
+                ) : (
+                  <button className="details__btn" onClick={() => addProductToCart(product)} >Add to Cart</button>
+                )
+              }
               <div className="right__seller">
                 <h1>Shipper/Seller</h1>
                 <h1>Amazon.com</h1>
@@ -247,7 +272,6 @@ console.log("Inventory uids:", productInventory.products.map(p => p.uid))
         <h1 className="low__title">See Personalized Reccomendations</h1>
         <button className="low__btn">Sign In</button>
       </div>
-      <Footer />
     </div>
   );
 };

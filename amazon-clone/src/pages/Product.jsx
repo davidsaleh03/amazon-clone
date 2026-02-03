@@ -21,7 +21,6 @@ const Product = () => {
 
   return (
     <div className="Product">
-      <Navbar />
       <div className="product__page--actual">
         <div className="bottom__section">
           <div className="top__bottom">
@@ -46,7 +45,6 @@ const Product = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
