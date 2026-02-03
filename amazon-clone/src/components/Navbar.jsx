@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({numberItem}) => {
   return (
     <div className="Navbar">
         <div className="navbar__contents--top">
@@ -52,7 +52,7 @@ const Navbar = () => {
             </div>
             <div className="nav__cart">
                 <FontAwesomeIcon className='cart-icon' icon={faCartShopping} />
-                <h1 className='items-cart'>0</h1>
+                <h1 className='items-cart'>{numberItem()}</h1>
             </div>
         </div>
         <div className="navbar__contents--bottom">

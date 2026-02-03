@@ -33,7 +33,7 @@ function App() {
   function changeQuantity(product, quantity) {
     setCart(
       cart.map((item) => 
-        item.id === product.id
+        item.uid === product.uid
         ? {
           ...item,
           quantity: +quantity
@@ -45,13 +45,13 @@ function App() {
 
   return (
     <div className='app'>
-      <Navbar />
+      <Navbar numberItem={numberItem}/>
       <ScrollToTop />
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/products/:id' element={<Product />}/>
         <Route path='/product-page/:uid' element={<ProductPage addToCart={addToCart} cart={cart} />}/>
-        <Route path='/cart' element={<Cart changeQuantity={changeQuantity} cart={cart} removeProduct={removeProduct} />}/>
+        <Route path='/cart' element={<Cart changeQuantity={changeQuantity} cart={cart} removeProduct={removeProduct} numberItem={numberItem} />}/>
       </Routes>
       <Footer />
     </div>
