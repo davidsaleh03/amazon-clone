@@ -50,10 +50,12 @@ const Navbar = ({numberItem}) => {
                 <h1>Returns</h1>
                 <h1>& Orders</h1>
             </div>
+            <Link to={'/cart'}>
             <div className="nav__cart">
                 <FontAwesomeIcon className='cart-icon' icon={faCartShopping} />
                 <h1 className='items-cart'>{numberItem()}</h1>
             </div>
+            </Link>
         </div>
         <div className="navbar__contents--bottom">
             <div className="nav__all">

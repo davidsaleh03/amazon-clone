@@ -4,6 +4,7 @@
     padding: 48px 24px;
     margin-top: 99px;
     overflow: hidden;
+    background-color: #eaeded;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,11 +47,3 @@
     background-color: #fff;
 }
 
-@media (max-width: 836px) {
-    .products__description {
-        display: none;
-    }
-    .top__bottom-left {
-    margin-right: 40%;
-}
-}
