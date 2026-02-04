@@ -2,37 +2,64 @@ import React from "react";
 import "./cart.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, useNavigate, useParams } from "react-router-dom";
+import { useState, useEffect } from "react";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import LoadingCart from "../components/LoadingCart";
 
 const Cart = ({ cart, changeQuantity, removeProduct, numberItem }) => {
   function total() {
     let price = 0;
     cart.forEach((product) => {
-        price += +product.price * product.quantity
-    })
-    return price
+      price += +product.price * product.quantity;
+    });
+    return price;
   }
+  const [loading, setLoading] = useState(true);
+  
+  useEffect(() => {
+    setLoading(true);
+  
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 300);
+  
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
+    <>
+    {
+        loading 
+        ?
+        (
+            <LoadingCart />
+        )
+        :
+        (
+
     <div className="cart">
       <div className="cart__container">
         <div className="cart__top">
-    {total() < 35 ? (
-      <>
-        <h1>
-          Spend ${(35 - total()).toFixed(2)} more to score FREE 2 Day Shipping
-        </h1>
-        <p>Free Shipping on orders $35+</p>
-      </>
-    ) : (
-      <h1>You have scored FREE 2 Day Shipping!</h1>
-    )}
-  </div>
+          {total() < 35 ? (
+            <>
+              <h1>
+                Spend ${(35 - total()).toFixed(2)} more to score FREE 2 Day
+                Shipping
+              </h1>
+              <p>Free Shipping on orders $35+</p>
+            </>
+          ) : (
+            <h1>You have scored FREE 2 Day Shipping!</h1>
+          )}
+        </div>
         <div className="cart__area">
           <div className="cart__left">
             <div className="cart__left--top">
-            <h1 className="cart__title">Shopping Cart</h1>
-            <h1 className="cart__ammount">Subtotal ({numberItem()} Items): <span className='sub-bold'>${((total())).toFixed(2)}</span></h1>
+              <h1 className="cart__title">Shopping Cart</h1>
+              <h1 className="cart__ammount">
+                Subtotal ({numberItem()} Items):{" "}
+                <span className="sub-bold">${total().toFixed(2)}</span>
+              </h1>
             </div>
             {cart.map((product, index) => {
               return (
@@ -68,7 +95,7 @@ const Cart = ({ cart, changeQuantity, removeProduct, numberItem }) => {
                           +
                         </button>
                       </div>
-                    <h1 onClick={() => removeProduct(product)}>Remove</h1>
+                      <h1 onClick={() => removeProduct(product)}>Remove</h1>
                     </div>
                   </div>
                   <div className="item__right">${product.price}</div>
@@ -78,8 +105,11 @@ const Cart = ({ cart, changeQuantity, removeProduct, numberItem }) => {
             {cart.length === 0 && (
               <div className="cart__empty">
                 <div className="empty__text">
-                <FontAwesomeIcon className='shoppingcart' icon={faCartShopping} />
-                <h1>You don't have any items in your cart!</h1>
+                  <FontAwesomeIcon
+                    className="shoppingcart"
+                    icon={faCartShopping}
+                  />
+                  <h1>You don't have any items in your cart!</h1>
                 </div>
                 <Link to="/">
                   <button className="btn browse">Browse Products</button>
@@ -89,14 +119,22 @@ const Cart = ({ cart, changeQuantity, removeProduct, numberItem }) => {
           </div>
           <div className="cart__right">
             <div className="titles-right">
-            <h1 className='right__subtotal'>Subtotal ({numberItem()} Items): <span className='sub-bold'>${((total())).toFixed(2)}</span></h1>
-            <h1 className="right__two">Taxes and Fees Calculated at Checkout</h1>
+              <h1 className="right__subtotal">
+                Subtotal ({numberItem()} Items):{" "}
+                <span className="sub-bold">${total().toFixed(2)}</span>
+              </h1>
+              <h1 className="right__two">
+                Taxes and Fees Calculated at Checkout
+              </h1>
             </div>
             <button className="checkout--btn">Checkout</button>
           </div>
         </div>
       </div>
     </div>
+        )
+    }
+    </>
   );
 };
 

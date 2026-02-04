@@ -12,10 +12,24 @@ import {
 import { faStar, faStarHalf } from "@fortawesome/free-solid-svg-icons";
 import productInventory from "../assets/products.js";
 import MiddleBanners2 from "../components/MiddleBanners2.jsx";
+import LoadingMiddleBanners from "../components/LoadingMiddleBanners.jsx";
+import LoadingProductPage from "../components/LoadingProductPage.jsx";
 
 const ProductPage = ({addToCart, cart}) => {
     const { uid } = useParams(); 
   const product = productInventory.products.find(p => p.uid === uid);
+
+  const [loading, setLoading] = useState(true);
+  
+    useEffect(() => {
+    setLoading(true);
+  
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 300);
+  
+    return () => clearTimeout(timer);
+  }, [product.uid]);
 
   function addProductToCart(product) {
     addToCart(product)
@@ -115,6 +129,15 @@ const ProductPage = ({addToCart, cart}) => {
         <div className="product__page--top">
           <FontAwesomeIcon className='back-button' onClick={()=>{navigate(-1)}} icon={faArrowLeft} />
         </div>
+        {
+          loading
+          ?
+          (
+            <LoadingProductPage />
+          )
+          :
+          (
+
         <div className="product__page--details">
           <div className="details__left">
             <h1>{product.name}</h1>
@@ -264,8 +287,16 @@ const ProductPage = ({addToCart, cart}) => {
             </div>
           </div>
         </div>
+          )
+        }
         <div className="product__page--lower">
-          <MiddleBanners2 name={product.name} id={product.id} />
+          {
+            loading 
+            ?
+            <LoadingMiddleBanners />
+            :
+            <MiddleBanners2 name={product.name} id={product.id} />
+          }
         </div>
       </div>
       <div className="home__middle--low">
