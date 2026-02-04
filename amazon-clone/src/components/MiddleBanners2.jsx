@@ -25,7 +25,9 @@ const MiddleBanners2 = ({name, id}) => {
                 })
             }
         </div>
+        <Link to={`/products/${id}`}>
         <h1 className="banner-title2">See More</h1>
+        </Link>
     </div>
   )
 }

@@ -70,7 +70,9 @@ const UpperBanner = () => {
                 );
               })}
           </div>
+          <Link to={'/products/amazonbasics'}>
           <h2 className="module__footer">See more</h2>
+          </Link>
         </div>
         <div className="module high__rated">
           <h1 className="module__title">Highly Rated in Home Decor</h1>
@@ -90,7 +92,9 @@ const UpperBanner = () => {
                 );
               })}
           </div>
+          <Link to={'/products/homedecor'}>
           <h2 className="module__footer">See more</h2>
+          </Link>
         </div>
         <div className="module lowest__price">
           <h1 className="module__title">Highly Rated in Kitchen</h1>
@@ -109,7 +113,9 @@ const UpperBanner = () => {
                 );
               })}
           </div>
+          <Link to={'/products/kitchen'}>
           <h2 className="module__footer">See more</h2>
+          </Link>
         </div>
         <div className="module module__last continue__shopping">
             <h1 className="module__title">Highly Rated in Electronics</h1>
@@ -129,7 +135,9 @@ const UpperBanner = () => {
                   );
                 })}
             </div>
+            <Link to={'/products/electronics'}>
             <h2 className="module__footer">See more</h2>
+            </Link>
           </div>
         </div>
     </div>
