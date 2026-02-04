@@ -9,9 +9,7 @@ import {
   faLocationDot,
   faCircleXmark,
 } from "@fortawesome/free-solid-svg-icons";
-import Navbar from "../components/Navbar";
 import { faStar, faStarHalf } from "@fortawesome/free-solid-svg-icons";
-import Footer from "../components/Footer";
 import productInventory from "../assets/products.js";
 import MiddleBanners2 from "../components/MiddleBanners2.jsx";
 

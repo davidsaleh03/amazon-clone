@@ -8,10 +8,24 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import Footer from "../components/Footer";
 import PriceRange from "../components/PriceRange";
 import productInventory from "../assets/products.js";
+import LoadingProductsAct from "../components/LoadingProductsAct.jsx";
 
 const Product = () => {
     const { id } = useParams(); 
   const productId = id
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+  setLoading(true);
+
+  const timer = setTimeout(() => {
+    setLoading(false);
+  }, 300);
+
+  return () => clearTimeout(timer);
+}, [productId]);
+
 
 
   const [filter, setFilter] = useState("");
@@ -42,7 +56,9 @@ const Product = () => {
             </div>
           </div>
           <div className="right__products">
-            <ProductsAct productId={productId} filter={filter}/>
+            {
+              loading ? <LoadingProductsAct /> : <ProductsAct productId={productId} filter={filter}/>
+            }
           </div>
         </div>
       </div>
