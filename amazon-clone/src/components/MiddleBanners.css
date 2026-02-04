@@ -33,6 +33,10 @@
     cursor: pointer;
 }
 
+.banner-title2:hover {
+    opacity: 70%;
+}
+
 .product__display--section {
     display: flex;
     flex-direction: row;

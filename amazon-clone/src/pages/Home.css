@@ -44,6 +44,11 @@
 .low__btn {
    background-color: #FFCC00;
    color: #242424;
+   cursor: not-allowed;
+}
+
+.low__btn:hover {
+    opacity: 80%;
 }
 
 .low__title {

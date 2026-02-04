@@ -2,12 +2,16 @@ import React from 'react'
 import './Footer.css'
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", 
+    });
+  }
   return (
     <div>
-        <div className="home__to-top">
-            <a href="#top-area">
+        <div className="home__to-top" onClick={scrollToTop}>
             <h1>Back to the top</h1>
-            </a>
         </div>
         <div className="footer__section">
            <ul className="footer__list">
