@@ -1,5 +1,5 @@
 import React from "react";
-import "./cart.css";
+import "./Cart.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
