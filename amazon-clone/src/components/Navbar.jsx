@@ -63,27 +63,27 @@ const Navbar = ({numberItem}) => {
                 <h1>All</h1>
             </div>
             <Link to={'/products/amazonbasics'}>
-            <div className="nav__btm cursor-yes">
+            <div className="nav__btm btm-2 cursor-yes">
                 <h1>Amazon Basics</h1>
             </div>
             </Link>
             <Link to={'/products/homedecor'}>
-            <div className="nav__btm cursor-yes">
+            <div className="nav__btm btm-2 cursor-yes">
                 <h1>Home Decor</h1>
             </div>
             </Link>
             <Link to={'/products/kitchen'}>
-            <div className="nav__btm cursor-yes">
+            <div className="nav__btm btm-2 cursor-yes">
                 <h1>Kitchen</h1>
             </div>
             </Link>
             <Link to={'/products/electronics'}>
-            <div className="nav__btm cursor-yes">
+            <div className="nav__btm btm-2 cursor-yes">
                 <h1>Electronics</h1>
             </div>
             </Link>
             <Link to={'/products/books'}>
-            <div className="nav__btm cursor-yes">
+            <div className="nav__btm btm-2 cursor-yes">
                 <h1>Books</h1>
             </div>
             </Link>

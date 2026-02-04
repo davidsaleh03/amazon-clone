@@ -191,6 +191,7 @@
 .photos__array--actual img {
     height: 100%;
     width: 100%;
+    object-fit: contain;
 }
 
 .product__page--details {
@@ -211,6 +212,7 @@
 .details__photo--actual img {
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
 .details__photos--array {

@@ -5,7 +5,7 @@
     width: 100vw;
     height: 400px;
     overflow: hidden;
-    box-shadow: 0 200px 4000px 0 rgba(1, 4, 50, 0.818);
+    box-shadow: 0 200px 4000px 0 rgba(0, 0, 0, 0.818);
     z-index: 100;
 
 }

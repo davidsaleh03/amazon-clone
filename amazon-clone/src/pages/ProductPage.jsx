@@ -2,7 +2,7 @@ import React from "react";
 import "./ProductPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useParams } from 'react-router-dom';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useState, useEffect} from "react";
 import {
   faArrowLeft,
@@ -39,6 +39,8 @@ const ProductPage = ({addToCart, cart}) => {
     }
     return stars;
   }
+
+  const navigate = useNavigate()
 
   const [activeImage, setActiveImage] = useState('');
 
@@ -113,7 +115,7 @@ const ProductPage = ({addToCart, cart}) => {
          </div>
         )}
         <div className="product__page--top">
-          <FontAwesomeIcon className='back-button' icon={faArrowLeft} />
+          <FontAwesomeIcon className='back-button' onClick={()=>{navigate(-1)}} icon={faArrowLeft} />
         </div>
         <div className="product__page--details">
           <div className="details__left">

@@ -52,6 +52,10 @@ h1 {
     font-weight: 300;
 }
 
+.nav__location--container:last-child {
+    cursor: not-allowed;
+}
+
 .nav__search {
     display: flex;
     justify-content: center;
@@ -132,10 +136,12 @@ h1 {
     font-size: 12px;
     font-weight: 300;
     color: white;
+    cursor: not-allowed;
 }
 
 .nav__account h1:nth-child(2) {
     font-weight: 800;
+    cursor: not-allowed;
 }
 
 .nav__cart {
@@ -146,6 +152,10 @@ h1 {
 }
 
 .nav__cart:hover {
+    border: 0.25px solid white;
+}
+
+.btm-2:hover {
     border: 0.25px solid white;
 }
 
@@ -176,6 +186,10 @@ h1 {
 .nav__all h1,
 .nav__btm h1 {
     font-size: 14px;
+}
+
+.nav__returns {
+    cursor: not-allowed;
 }
 
 .nav__all,

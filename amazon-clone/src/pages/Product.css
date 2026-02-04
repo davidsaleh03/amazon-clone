@@ -11,6 +11,13 @@
     align-items: center;
 }
 
+.filter-1 {
+    background-color: white;
+    color: #242424;
+    font-weight: 300;
+    padding: 8px;
+    border: 1px solid rgb(218, 216, 216);
+}
 
 
 .products__description {

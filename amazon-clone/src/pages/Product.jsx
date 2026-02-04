@@ -13,6 +13,7 @@ const Product = () => {
     const { id } = useParams(); 
   const productId = id
 
+
   const [filter, setFilter] = useState("");
 
   function handleFilterChange(event) {
@@ -32,7 +33,7 @@ const Product = () => {
               </p>
             </div>
             <div className="top__bottom-right">
-                <select id="filter" onChange={handleFilterChange}>
+                <select className='filter-1' id="filter" onChange={handleFilterChange}>
                     <option value="" disabled selected>Filter</option>
                   <option value="LOW_TO_HIGH" >Price, Low to High</option>
                   <option value="HIGH_TO_LOW" >Price, High to Low</option>
